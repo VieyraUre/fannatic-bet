@@ -1,0 +1,14 @@
+mixin gameCards(img, text, link, textLink)
+	div(class="grid__card")
+		img(src=img, alt=text, class="grid__img")
+		div(class="grid__content")
+			h3(class="grid__content--p")= text 
+			a(href=link class="grid__content--anchore")= textLink
+
+section(class="games")
+	div(class="games__container")
+		h2 Enjoy our products
+		div(class=' grid ed-grid s-grid-2 l-grid-3 row-gap l-big-section') 
+			-for(var i = 0; i < games.length ; i++)
+				-var game = games[i]
+				+gameCards(game.img, game.text, game.link, game.textLink)

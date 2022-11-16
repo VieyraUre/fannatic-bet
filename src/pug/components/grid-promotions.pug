@@ -1,0 +1,14 @@
+mixin promotionCards(img, text, link, textLink)
+	div(class="grid__card")
+		img(src=img, alt=text, class="grid__img")
+		div(class="grid__content")
+			h3(class="grid__content--p")= text 
+			a(href=link class="grid__content--anchore")= textLink
+
+section(class="games")
+	div(class="games__container")
+		h2 Bonuses and promotions
+		div(class=' grid ed-grid s-grid-1 l-grid-2 row-gap l-big-section') 
+			-for(var i = 0; i < promotions.length ; i++)
+				-var promotion = promotions[i]
+				+promotionCards(promotion.img, promotion.text, promotion.link, promotion.textLink)

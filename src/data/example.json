@@ -1,0 +1,394 @@
+{
+	"list":
+		[
+			{
+				"item"		:"Sports",
+				"link"		:"jhdjahd"
+			},
+
+			{
+				"item"		:"Live Betting",
+				"link"		:""
+			},
+
+			{
+				"item"		:"Bonuses",
+				"link"		:""
+			},
+
+			{
+				"item"		:"Racebook",
+				"link"		:""
+			},
+
+			{
+				"item"		:"Casino",
+				"link"		:""
+			},
+
+			{
+				"item"		:"Banking",
+				"link"		:""
+			}
+		],
+
+	"casos":
+		[
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			}
+		],
+
+		"lenguajes": 
+			[
+				{
+					"icon"		:"assets/img/en.png",
+					"text"		:"EN"
+				},
+				{
+					"icon"		:"assets/img/esp.png",
+					"text"		:"ES"
+				},
+				{
+					"icon"		:"assets/img/francia.png",
+					"text"		:"FR"
+				}
+			],
+
+		"slider":
+			[
+				{
+					"image"		:"assets/img/slider1.jpg",
+					"alt"		:"jsjsjs",
+					"field"		: [
+						"100%", 
+						"welcome", 
+						"sports", 
+						"bonus"
+					],
+
+					
+					"link"		: "hdwqhd",
+					"linkText"	: "join now"
+						
+				},
+				
+				{
+					"image"		:"assets/img/slider4.jpg",
+					"alt"		:"jsjsjsj",
+					"field"		: [
+						"100%", 
+						"welcome", 
+						"casino", 
+						"bonus"
+					],
+						
+					"link"		: "hdwqhd",
+					"linkText"	: "join now"
+						
+					
+				},
+
+				{
+					"image"		:"assets/img/slider4.jpg",
+					"alt"		:"jsjsjsj",
+					"field"		: [
+						"8",
+						"daily",
+						"horse",
+						"rebate"
+					],
+
+					"link"		: "hdwqhd",
+					"linkText"	: "join now"
+					
+				}
+
+			],
+
+		"currencies":
+			[
+				{
+					"currency"		:"EUR"
+				},
+				{
+					"currency"		:"ARG"
+				},
+				{
+					"currency"		:"MXN"
+				},
+				{
+					"currency"		:"USD"
+				}
+			],
+
+		"contries":
+			[
+				{
+					"contry"		:"Costa Rica"
+				},
+				{
+					"contry"		:"Belize"
+				},
+				{
+					"contry"		:"Venezuela"
+				}
+			],
+
+		"games": 
+			[
+				{
+					"img"			:"assets/img/games.jpg",
+					"text"			:"sports",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"join now"
+
+					
+				},
+				{
+					"img"			:"assets/img/games.jpg",
+					"text"			:"casino",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"join now"
+					
+				},
+				{
+					"img"			:"assets/img/games.jpg",
+					"text"			:"live casino",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"join now"
+					
+				},
+				{
+					"img"			:"assets/img/games.jpg",
+					"text"			:"racebook",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"join now"
+					
+				},
+				{
+					"img"			:"assets/img/games.jpg",
+					"text"			:"live wagerin",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"join now"
+					
+				},
+				{
+					"img"			:"assets/img/games.jpg",
+					"text"			:"props buider",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"join now"
+					
+				}
+			],
+
+			"promotions": [
+				{
+					"img"			:"assets/img/promotion.jpg",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"initial deposit only"
+					
+				},
+				{
+					"img"			:"assets/img/promotion.jpg",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"initial deposit only"
+					
+				},
+				{
+					"img"			:"assets/img/promotion.jpg",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"reload deposit"
+					
+				},
+				{
+					"img"			:"assets/img/promotion.jpg",
+					"link"			:"/juegos-vivo",
+					"textLink"			:""
+					
+				}
+				
+			],
+
+			"carrusel": [
+				{
+					"img"			: "assets/img/visa.svg"
+				},
+				{
+					"img"			: "assets/img/l8.svg"
+				}
+			],
+
+			"column1": [
+				{
+					"item"			:"Online sportsbook",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"Online Casino",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"Online racebook",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"sign me up",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"About us",
+					"link"			:"ejkjfewjfw"
+				}
+			],
+
+			"column2": [
+				{
+					"item"			:"Banking Options",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"Bonuses & promotions",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"sportsbook agent admin",
+					"link"			:"ejkjfewjfw"
+				}
+			],
+
+			"column3": [
+				{
+					"item"			:"House Rules",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"Sports Rules",
+					"link"			:"ejkjfewjfw"
+				},
+
+				{
+					"item"			:"Casino rules",
+					"link"			:"ejkjfewjfw"
+				}
+			],
+
+			"connect": [
+				{
+					"icon"			:"assets/img/visa.svg",
+					"link"			:"ejkjfewjfw",
+					"alt"			:"Instagram"
+				},
+				{
+					"icon"			:"assets/img/visa.svg",
+					"link"			:"ejkjfewjfw",
+					"alt"			:"facebook"
+				},
+				{
+					"icon"			:"assets/img/visa.svg",
+					"link"			:"ejkjfewjfw",
+					"alt"			:"l8"
+				}
+
+			]
+}

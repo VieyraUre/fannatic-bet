@@ -1,0 +1,34 @@
+//layout
+:root {
+  --header-height 		: 4rem;
+  @include from(l) {
+    --header-height 	: 5rem;
+  }
+	//native color vars
+	--color-background      	: #FFFFFF;
+	--color-backgroundTwo      	: #F2F2F2;
+	--color-first     	: #DD2E28;
+	--color-second      	: #009D3D ;
+	--color-third    	: #F1E940;
+	--color-body      	: #194112;
+	--color-block      	: #969696;
+	--color-opacity		: rgba(221, 46, 40, 0.86);
+}
+// Sass Color Vars
+$color-first 			: var(--color-first			);
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+::selection {
+	color: white;
+	background: #009D3D;
+}
+
+strong {
+	font-weight 	: 700;
+}

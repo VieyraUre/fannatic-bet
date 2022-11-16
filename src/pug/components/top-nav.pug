@@ -1,0 +1,30 @@
+mixin list(item, link)
+	li(class='top-nav__li'): a(href=link, class='top-nav__anchor')=item
+
+//- mixin dropdown(img, text) 
+//- 	img(src=img, alt="text")
+//- 	p=text
+
+nav(class='top-nav')
+	div(class='top-nav__container')
+		button(type='button', class='top-nav__mb-iconMenu hamburger hamburger--slider-r')
+			span.hamburger-box
+				span.hamburger-inner
+		a(href='./', class='top-nav__link')
+			img(src='assets/img/logo-fanattic.jpg', alt='', class='top-nav__logo')
+		ul(class='top-nav__menu')
+			-for(var i = 0; i < list.length ; i++)
+				-var item = list[i]
+				+list(item.item, item.link)
+		//- div(class='dropdown') 
+		//- 	button(class='dropdown__button') 
+		//- 		img(class="dropdown__button--img" src="assets/img/esp.png", alt="")
+		//- 		p(class="dropdown__button--p") ES
+		//- 		span(class="material-symbols-outlined") expand_more
+			div(class='dropdown__expand')
+				-for(var i = 0; i < lenguajes.length ; i++)
+					-var lenguaje = lenguajes[i]
+					+dropdown(lenguaje.icon, lenguaje.text)
+		div(class='top-nav__btns--container btn')
+			button(type='button', class='btn__login btn sign') login
+			a(href="../signUp.html", class='btn__singup btn display') signup

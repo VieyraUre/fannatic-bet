@@ -1,0 +1,63 @@
+.games {
+	// background-image: url(../../assets/img/signUp-back2.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+	background-color: var(--color-backgroundTwo) ;
+    height: 100vh;
+    width: 100vw;
+	
+	&__container {
+		max-width: 1440px;
+		width: 90%;
+		margin: auto;
+
+		@include from(l) {
+			width: 100%;
+		}
+	}
+}
+
+.grid {
+	// grid-row-gap: 16px;
+	gap: 16px;
+	
+	&__card {
+		background-color: var(--color-hover);
+		border-radius: 0.5rem;
+		box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.34);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;	
+		position: relative;
+		
+		@include from(l) {
+			margin-bottom: 0px;
+			// width: 416px;
+		}
+	}
+
+	&__content {
+		position: absolute;
+		left: 0;
+	}
+
+	// &__anchore {
+	// 	text-decoration: none;
+	// }
+
+	&__img {
+		width: 100%;
+		
+
+		@include from(l) {
+			width: 100%;
+		}
+	}
+
+	&__p {
+		color: var(--color-body);
+		font-weight: 600;
+
+	}
+}
