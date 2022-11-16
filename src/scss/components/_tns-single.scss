@@ -1,12 +1,12 @@
 .tns-single{
-	/*
+	
 	& > img:nth-child(odd){
 		background        : red;
 	}
 	& > img:nth-child(even){
 		background        :green;
 	}
-	*/
+	
 	&__content{
 		min-height: 25vh;
 		display           : flex;
@@ -17,37 +17,30 @@
 	}
 
 	img {
-		border-radius: 0.5rem;
+		// border-radius: 0.5rem;
 		min-height: 25vh;
+		background-color: black;
 		
 		@include from(l) {
-			border-radius: 1rem;
-			height: 50vh;
+			height: 547px;
 		}
+	}
+
+	&__content--cta {
+		position: absolute;
+		top: 103px;
+		left: 100px;
+		color: var(--color-background);
 	}
 }
 
 .container{
-	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.7);
-	border-radius: 0.5rem;
-	width: 95%;
-	max-width: 1440px;
-	margin: 32px auto;
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
 	
 	&__slider{
 		border-radius: 1rem;
 		min-height: 25vh;
 	}
-	
-	// &__signup{
-	// 	width: 250px;
-	// 	min-height: 25vh;
-	// 	margin: 0 auto;
-	// 	@include from(l){
-	// 		position: absolute;
-	// 		right: 0;
-	// 		top: 0;
-			
-	// 	}
-	// }
 }

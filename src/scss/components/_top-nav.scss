@@ -1,5 +1,5 @@
 .top-nav{
-	background    	: var(--color-hover);
+	background    	: var(--color-background);
 	position      	: fixed;
 	top           	: 0;
 	width         	: 100%;
@@ -8,14 +8,14 @@
 	justify-content : center;
 	z-index: 1;
 
+
 	&__container {
 		align-items: center;
 		background-color: var(--color-background);
 		display: flex;
 		justify-content: space-between;
-		width: 100%;
 		height        	: var(--header-height);
-		max-width: 1440px;
+		max-width: 1280px;
 		width: 100%;
 		padding: 16px 15px;
 	}
@@ -39,7 +39,7 @@
 		height: var(--header-height);
 		align-items: center;
 		padding: 1rem 0;
-		gap: 12px;
+		gap: 16px;
 
 	}
 	

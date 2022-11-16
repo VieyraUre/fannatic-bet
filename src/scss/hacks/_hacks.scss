@@ -68,3 +68,8 @@ img {
 	background: var(--color-first);
 	opacity: 0.95;
 }
+
+//hack para posicionar un texto dentro de un box
+ .relative {
+	position: relative;
+ }

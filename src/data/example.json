@@ -151,7 +151,7 @@
 		"slider":
 			[
 				{
-					"image"		:"assets/img/slider1.jpg",
+					"image"		:"assets/img",
 					"alt"		:"jsjsjs",
 					"field"		: [
 						"100%", 
@@ -159,15 +159,13 @@
 						"sports", 
 						"bonus"
 					],
-
-					
 					"link"		: "hdwqhd",
 					"linkText"	: "join now"
 						
 				},
 				
 				{
-					"image"		:"assets/img/slider4.jpg",
+					"image"		:"assets/img",
 					"alt"		:"jsjsjsj",
 					"field"		: [
 						"100%", 
@@ -183,7 +181,7 @@
 				},
 
 				{
-					"image"		:"assets/img/slider4.jpg",
+					"image"		:"assets/img",
 					"alt"		:"jsjsjsj",
 					"field"		: [
 						"8",
@@ -375,17 +373,17 @@
 
 			"connect": [
 				{
-					"icon"			:"assets/img/visa.svg",
+					"icon"			:"assets/img/ig.svg",
 					"link"			:"ejkjfewjfw",
 					"alt"			:"Instagram"
 				},
 				{
-					"icon"			:"assets/img/visa.svg",
+					"icon"			:"assets/img/facebook.svg",
 					"link"			:"ejkjfewjfw",
 					"alt"			:"facebook"
 				},
 				{
-					"icon"			:"assets/img/visa.svg",
+					"icon"			:"assets/img/l8.svg",
 					"link"			:"ejkjfewjfw",
 					"alt"			:"l8"
 				}

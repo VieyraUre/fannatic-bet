@@ -1,9 +1,9 @@
 .btn {
 	border: none;
-    border-radius: 6px;
+    border-radius: 5px;
 	color: var(--color-body);
 	font-weight: bold;
-    padding: 6px;
+    padding: 4px 11px;
 	text-transform: capitalize;
 	font-size: var(--small-font-size);
 	cursor: pointer;
@@ -24,7 +24,8 @@
 	&__login {
 		background-color: var(--color-second);
 		border: 2px solid var(--color-second);
-
+		color: var(--color-background );
+		
 		&:active {
 			background-color: transparent;
 		}
@@ -33,8 +34,34 @@
 			&:hover {
 				background: transparent;
 				border: 2px solid var(--color-second);
+				color: var(--color-bodyThird);
 			}
 		}
+	}
+
+	&__primary {
+		padding: 9px 180px;
+		background-color: var(--color-first);
+		border-radius: 7px;
+		font-size: 55px;
+		color: var(--color-background);
+
+		
+		@include from(l) {
+			&:hover {
+				background-color: var(--color-second);
+				color: var(--color-background);
+			}
+		}
+	}
+
+	&__secondary {
+		padding: 8px 48px;
+		background-color: transparent;
+		border: 1px solid var(--color-background);
+		border-radius: 1px;
+		font-size: 14px;
+		color: var(--color-background);
 	}
 
 	

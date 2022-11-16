@@ -7,12 +7,14 @@
 	//native color vars
 	--color-background      	: #FFFFFF;
 	--color-backgroundTwo      	: #F2F2F2;
-	--color-first     	: #DD2E28;
-	--color-second      	: #009D3D ;
-	--color-third    	: #F1E940;
-	--color-body      	: #194112;
-	--color-block      	: #969696;
-	--color-opacity		: rgba(221, 46, 40, 0.86);
+	--color-first     			: #DD2E28;
+	--color-second      		: #009D3D ;
+	--color-third    			: #F1E940;
+	--color-body      			: #194112;
+	--color-bodySecond  		: #000000;
+	--color-bodyThird			: #535353;
+	--color-block				: #969696;
+	--color-opacity				: rgba(221, 46, 40, 0.86);
 }
 // Sass Color Vars
 $color-first 			: var(--color-first			);

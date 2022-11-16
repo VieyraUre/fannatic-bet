@@ -10,10 +10,10 @@ div(class='container')
 				if(slider[i].field)
 					div
 						div(class='tns-single__content'): img(src=slider[i].image alt=slider[i].alt class='tns-single__img' )
-						div
+						div(class="tns-single__content--cta")
 							-for(var j = 0; j < slider[i].field.length; j++)
-								p= slider[i].field[j]
-							a(href=slider[i].link)= slider[i].linkText
+								p(class=slider[i].field[j])= slider[i].field[j]
+							a(class="btn btn__primary" href=slider[i].link)= slider[i].linkText
 				else
 					+card(slider[i].slider)
 						
