@@ -1,8 +1,8 @@
 .games {
-	// background-image: url(../../assets/img/signUp-back2.jpg);
-    // background-repeat: no-repeat;
-    // background-size: cover;
-	background-color: var(--color-backgroundTwo) ;
+	background-image: url(../../assets/img/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	// background-color: var(--color-backgroundTwo) ;
 	padding: 62px 0 84px 0;
 	
 	&__container {
@@ -20,11 +20,12 @@
 	// grid-row-gap: 16px;
 	gap: 16px;
 	margin-bottom: 0;
+	align-content: flex-start;
 	
 	&__card {
 		background-color: var(--color-hover);
 		border-radius: 1rem;
-		box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.34);
+		// box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.34);
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -39,8 +40,15 @@
 	
 	&__content {
 		position: absolute;
-		left: 48px;
-		bottom: 30px;
+		left: 35px;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		width: 60%;
+
+		@include from(l) {
+			width: 247px;
+		}
 	}
 	
 	// &__anchore {
@@ -62,6 +70,16 @@
 			font-weight: 600;
 			
 		}
+		
+		&__content--h3 {
+			color: var(--color-background);
+			text-align: start;
+			text-transform: uppercase;	
+			
+			@include from(l) {
+				font-size: 44px;
+			}
+		}
 	}
 	
 .promotions {
@@ -69,5 +87,36 @@
 	// width: 100vw;
 	padding: 62px 0 84px 0;
 	mix-blend-mode: multiply;
+
+	// &__box {
+	// 	@include from(l) {
+	// 		&img:hover {
+	// 			box-shadow: inset 0px 0px 26px #F5FF00;;
+	// 		}
+	// 	}
+	// }
+	
+	&__box--img {
+		z-index: -1;
+		@include from(l) {
+			box-shadow: inset 0px 0px 26px var(--color-third);
+		}	
+	}
+	
+	&__box--anchore {
+		display: block;
+		border-radius: 1rem;
+		
+		width: 100%;
+		@include from(l) {
+			&:hover {
+				box-shadow: inset 0px 0px 26px var(--color-third);
+				background-image: url(../../assets/img/sports_1-1.png);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		}
+	}
+	
 }
 	

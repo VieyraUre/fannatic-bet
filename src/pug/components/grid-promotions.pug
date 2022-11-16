@@ -1,9 +1,10 @@
 mixin promotionCards(img, text, link, textLink)
-	div(class="grid__card")
-		img(src=img, alt=text, class="grid__img relative")
-		div(class="grid__content")
-			h3(class="grid__content--p")= text 
-			a(href=link class="btn btn__secondary grid__content--anchore")= textLink
+	div(class="grid__card promotions__box")
+		a(href=link class='promotions__box--anchore') 
+			img(src=img, alt=text, class="grid__img relative promotions__box--img")
+			div(class="grid__content")
+				h3(class="grid__content--p")= text 
+				a(href=link class="btn btn__secondary grid__content--anchore")= textLink
 
 section(class="games promotions")
 	div(class="games__container")

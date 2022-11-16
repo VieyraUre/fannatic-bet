@@ -105,6 +105,39 @@
 			
 		}
 	}
+
+	&__ul {
+		list-style: none;
+		color: var(--color-body);
+		font-size: 18px;	
+	}
+	
+	&__connect--container {
+		margin-top: 84px;
+	}
+
+	&__connect--list {
+		display: flex;
+		gap: 20px;
+		padding-left: 18px;
+		justify-content: flex-start;
+
+		img {
+			width: 24px;
+			
+			@include from(l) {
+				height: 36px;
+				width: 36px;
+			}
+		}
+	}
+
+	&__connect--li {
+		list-style: none;
+		color: var(--color-body);
+		font-size: 18px;
+		margin: 0;	
+	}
 ​
 	&__mb-iconMenu {
 		position: relative;

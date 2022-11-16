@@ -4,14 +4,14 @@
 }
 
 // Font families
-$body-font    : Lato,        'sans-serif';
-$heading-font : 'Open Sans', 'sans-serif';
+$body-font    : 'Poppins',        'sans-serif';
+$heading-font : 'Poppins', 'sans-serif';
 
 // CSS variables for typography
 :root {
   // Font families
-  --heading-font : 'Open Sans', sans-serif;
-  --body-font    : Lato,        sans-serif;
+  --heading-font : 'Poppins', sans-serif;
+  --body-font    : 'Poppins',        sans-serif;
 
   // Font sizes
   --h1-font-size        : #{rem(24px)};
@@ -25,12 +25,22 @@ $heading-font : 'Open Sans', 'sans-serif';
 
   // Font sizes from lg breakpoint (64em ~ 1024px)
   @include from(lg) {
-    --h1-font-size      : #{rem(36px)};
-    --h2-font-size      : #{rem(28px)};
-    --h3-font-size      : #{rem(20px)};
-    --normal-font-size  : #{rem(16px)};
-    --small-font-size   : #{rem(14px)};
-    --smaller-font-size : #{rem(13px)};
+	--extraBlack-heading: #{rem(171px)};
+	--extraBold-heading	: #{rem(141px)};
+	--extraBig-heading	: #{rem(133px)};
+	--extra-heading		: #{rem(103px)};
+	--heading			: #{rem(100px)};
+	--heading-medium	: #{rem(66px)};
+	--heading-small		: #{rem(55px)};
+
+    --h1-font-size      : #{rem(44px)};
+    --h2-font-size      : #{rem(40px)};
+    --h3-font-size      : #{rem(33px)};
+    --h4-font-size      : #{rem(30px)};
+    --h5-font-size      : #{rem(23px)};
+    --normal-font-size  : #{rem(20px)};
+    --small-font-size   : #{rem(18px)};
+    --smaller-font-size : #{rem(15px)};
   }
 }
 

@@ -151,7 +151,7 @@
 		"slider":
 			[
 				{
-					"image"		:"assets/img",
+					"image"		:"assets/img/slider1.jpg",
 					"alt"		:"jsjsjs",
 					"field"		: [
 						"100%", 
@@ -229,7 +229,7 @@
 		"games": 
 			[
 				{
-					"img"			:"assets/img/games.jpg",
+					"img"			:"assets/img/sports.png",
 					"text"			:"sports",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"join now"
@@ -237,35 +237,35 @@
 					
 				},
 				{
-					"img"			:"assets/img/games.jpg",
+					"img"			:"assets/img/casino.png",
 					"text"			:"casino",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"join now"
 					
 				},
 				{
-					"img"			:"assets/img/games.jpg",
+					"img"			:"assets/img/live_c.png",
 					"text"			:"live casino",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"join now"
 					
 				},
 				{
-					"img"			:"assets/img/games.jpg",
+					"img"			:"assets/img/racebook.png",
 					"text"			:"racebook",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"join now"
 					
 				},
 				{
-					"img"			:"assets/img/games.jpg",
+					"img"			:"assets/img/wagerin.png",
 					"text"			:"live wagerin",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"join now"
 					
 				},
 				{
-					"img"			:"assets/img/games.jpg",
+					"img"			:"assets/img/props.png",
 					"text"			:"props buider",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"join now"
@@ -275,25 +275,25 @@
 
 			"promotions": [
 				{
-					"img"			:"assets/img/promotion.jpg",
+					"img"			:"assets/img/sports_1.png",
 					"link"			:"/juegos-vivo",
-					"textLink"			:"initial deposit only"
+					"textLink"		:"initial deposit only"
 					
 				},
 				{
-					"img"			:"assets/img/promotion.jpg",
+					"img"			:"assets/img/free_s_1.png",
 					"link"			:"/juegos-vivo",
-					"textLink"			:"initial deposit only"
+					"textLink"		:"initial deposit only"
 					
 				},
 				{
-					"img"			:"assets/img/promotion.jpg",
+					"img"			:"assets/img/casino_1.png",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"reload deposit"
 					
 				},
 				{
-					"img"			:"assets/img/promotion.jpg",
+					"img"			:"assets/img/horse_1.png",
 					"link"			:"/juegos-vivo",
 					"textLink"			:""
 					
@@ -373,17 +373,36 @@
 
 			"connect": [
 				{
+					"icon"			:"assets/img/1_icon.svg",
+					"link"			:"ejkjfewjfw",
+					"alt"			:"Instagram"
+				},
+				{
+					"icon"			:"assets/img/4_icon.svg",
+					"link"			:"ejkjfewjfw",
+					"alt"			:"facebook"
+				},
+				{
+					"icon"			:"assets/img/5_icon.svg",
+					"link"			:"ejkjfewjfw",
+					"alt"			:"l8"
+				}
+
+			],
+
+			"connectHamburguer": [
+				{
 					"icon"			:"assets/img/ig.svg",
 					"link"			:"ejkjfewjfw",
 					"alt"			:"Instagram"
 				},
 				{
-					"icon"			:"assets/img/facebook.svg",
+					"icon"			:"assets/img/9_icon.svg",
 					"link"			:"ejkjfewjfw",
 					"alt"			:"facebook"
 				},
 				{
-					"icon"			:"assets/img/l8.svg",
+					"icon"			:"assets/img/l8_icon.svg",
 					"link"			:"ejkjfewjfw",
 					"alt"			:"l8"
 				}

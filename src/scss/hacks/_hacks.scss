@@ -73,3 +73,15 @@ img {
  .relative {
 	position: relative;
  }
+
+
+ //hover zoom en bonuses
+
+ //mi idea es identificar el elemento con un target y condicionarlo si tiene el mismo id cambiar la imagen dinamicamente
+.zoom {
+	&:hover {
+		background-image: url(../../assets/img/casino_1-1.png); //este va dinamico en js
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

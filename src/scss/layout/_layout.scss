@@ -34,15 +34,7 @@ body {
 		width: 100%;
 	}
 
-
-	&__ul {
-		list-style: none;
-		color: var(--color-body);
-		font-size: 18px;	
-	}
-
-
-	&__connect--container {
+	&__connect--list {
 		display: flex;
 		gap: 20px;
 
@@ -54,6 +46,12 @@ body {
 				width: 36px;
 			}
 		}
+	}
+
+	&__connect--li {
+		list-style: none;
+		color: var(--color-body);
+		font-size: 18px;	
 	}
 
 	&__bottom {

@@ -1,6 +1,10 @@
 mixin list(item, link)
 	li(class='top-nav__li'): a(href=link, class='top-nav__anchor')=item
 
+mixin connect(icon, link, alt)
+	li(class="top-nav__connect--li") 
+		a(href=link target='_blank')
+			img(src=icon, alt=alt)
 //- mixin dropdown(img, text) 
 //- 	img(src=img, alt="text")
 //- 	p=text
@@ -11,11 +15,17 @@ nav(class='top-nav')
 			span.hamburger-box
 				span.hamburger-inner
 		a(href='./', class='top-nav__link')
-			img(src='assets/img/logo-fanattic.jpg', alt='', class='top-nav__logo')
+			img(src='assets/img/fanattic.bet_logo.png', alt='', class='top-nav__logo')
 		ul(class='top-nav__menu')
 			-for(var i = 0; i < list.length ; i++)
 				-var item = list[i]
 				+list(item.item, item.link)
+			div(class="top-nav__connect--container")
+				ul(class="top-nav__connect--list") 
+					-for(var i = 0; i < connectHamburguer.length ; i++)
+						-var item = connectHamburguer[i]
+						+connect(item.icon, item.link)
+
 		//- div(class='dropdown') 
 		//- 	button(class='dropdown__button') 
 		//- 		img(class="dropdown__button--img" src="assets/img/esp.png", alt="")
@@ -26,5 +36,5 @@ nav(class='top-nav')
 					-var lenguaje = lenguajes[i]
 					+dropdown(lenguaje.icon, lenguaje.text)
 		div(class='top-nav__btns--container btn')
-			button(type='button', class='btn__login btn sign') login
+			a(href="../login.html", class='btn__login btn sign') login
 			a(href="../signUp.html", class='btn__singup btn display') signup

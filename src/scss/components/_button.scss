@@ -40,21 +40,23 @@
 	}
 
 	&__primary {
-		padding: 9px 180px;
+		padding: 9px 16px;
 		background-color: var(--color-first);
 		border-radius: 7px;
-		font-size: 55px;
 		color: var(--color-background);
-
+		
 		
 		@include from(l) {
+			font-size: 55px;
+			width: 512px;
+			padding: 9px 50px;
 			&:hover {
 				background-color: var(--color-second);
 				color: var(--color-background);
 			}
 		}
 	}
-
+	
 	&__secondary {
 		padding: 8px 48px;
 		background-color: transparent;
@@ -62,9 +64,19 @@
 		border-radius: 1px;
 		font-size: 14px;
 		color: var(--color-background);
+		width: 169px;
+		
+		@include from(l) {
+			font-size: 14px;
+			padding: 8px 48px;
+			
+			&:hover {
+				background-color: var(--color-first);
+				color: var(--color-background);
+				border: none;
+			}
+		}
 	}
-
-	
 }
 
 .display {
