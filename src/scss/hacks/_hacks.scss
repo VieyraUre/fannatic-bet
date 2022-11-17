@@ -75,13 +75,44 @@ img {
  }
 
 
- //hover zoom en bonuses
+ //hover en bonuses
 
- //mi idea es identificar el elemento con un target y condicionarlo si tiene el mismo id cambiar la imagen dinamicamente
-.zoom {
-	&:hover {
-		background-image: url(../../assets/img/casino_1-1.png); //este va dinamico en js
-		background-repeat: no-repeat;
-		background-size: cover;
+.card1 {
+	@include from(l) {
+		&:hover {
+			background-image: url(../../assets/img/sports_1-1.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}	
+}
+
+.card2 {
+	@include from(l) {
+		&:hover {
+			background-image: url(../../assets/img/free_s_1-1.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+}
+
+.card3 {
+	@include from(l) {
+		&:hover {
+			background-image: url(../../assets/img/casino_1_1.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}	
+}
+
+.card4 {
+	@include from(l) {
+		&:hover {
+			background-image: url(../../assets/img/horse_1_1.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
 	}
 }

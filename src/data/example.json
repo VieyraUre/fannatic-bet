@@ -141,17 +141,13 @@
 				{
 					"icon"		:"assets/img/esp.png",
 					"text"		:"ES"
-				},
-				{
-					"icon"		:"assets/img/francia.png",
-					"text"		:"FR"
 				}
 			],
 
 		"slider":
 			[
 				{
-					"image"		:"assets/img/slider1.jpg",
+					"image"		:"assets/img",
 					"alt"		:"jsjsjs",
 					"field"		: [
 						"100%", 
@@ -275,24 +271,28 @@
 
 			"promotions": [
 				{
+					"id"			:"card1",
 					"img"			:"assets/img/sports_1.png",
-					"link"			:"/juegos-vivo",
+					"link"			:"#",
 					"textLink"		:"initial deposit only"
 					
 				},
 				{
+					"id"			:"card2",
 					"img"			:"assets/img/free_s_1.png",
 					"link"			:"/juegos-vivo",
 					"textLink"		:"initial deposit only"
 					
 				},
 				{
+					"id"			:"card3",
 					"img"			:"assets/img/casino_1.png",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"reload deposit"
 					
 				},
 				{
+					"id"			:"card4",
 					"img"			:"assets/img/horse_1.png",
 					"link"			:"/juegos-vivo",
 					"textLink"			:""
@@ -407,5 +407,47 @@
 					"alt"			:"l8"
 				}
 
+			],
+
+			"slides": [
+				{
+					"field1"	:"100%",
+					"field2"	:"welcome",
+					"field3"	:"casino",
+					"field4"	:"bonus",
+					"field5"	:"",
+					"link"		: "hdwqhd",
+					"linkText"	: "join now",
+					"image"		:"assets/img/player.png",
+					"alt"		:"jsjsjs"
+						
+				},
+
+				{
+					"field1"	:"100%",
+					"field2"	:"welcome",
+					"field3"	:"sports",
+					"field4"	:"bonus",
+					"field5"	:"",
+					"link"		: "hdwqhd",
+					"linkText"	: "join now",
+					"image"		:"assets/img/dados.png",
+					"alt"		:"jsjsjs"
+						
+				},
+
+				{
+					"field1"	:"up tp",
+					"field2"	:"8%",
+					"field3"	:"dayly",
+					"field4"	:"horse",
+					"field5"	:"rebate",
+					"link"		: "hdwqhd",
+					"linkText"	: "join now",
+					"image"		:"assets/img/horses.png",
+					"alt"		:"jsjsjs"
+						
+				}
+				
 			]
 }

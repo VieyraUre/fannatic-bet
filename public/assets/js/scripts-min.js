@@ -58,6 +58,64 @@ overlay.addEventListener('click', function (event) {
 // }
 
 },{}],2:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var anchore = exports.anchore = document.querySelectorAll(".promotions__box--anchore");
+console.log(anchore);
+var img = document.querySelector(".promotions__box--img");
+console.log(img);
+
+anchore.forEach(function (a) {
+    a.addEventListener("mouseenter", function (event) {
+        var target = event.target;
+        var id = target.getAttribute('id');
+        if (id === "card1") {
+            img.style.backgroundImage = "url('../../assets/img/sports_1-1.png')";
+            console.log("pase");
+        } else if (id === "card2") {
+            img.style.backgroundImage = "url('../../assets/img/free_s_1-1.png')";
+            console.log("pase");
+        } else if (id === "card3") {
+            img.style.backgroundImage = "url('../../assets/img/casino_1_1.png)";
+            console.log("pase");
+        } else {
+            img.style.backgroundImage = "url('../../assets/img/horse_1_1.png)";
+            console.log("pase");
+        }
+    });
+});
+
+// export const anchore = document.querySelectorAll(".promotions__box--anchore");
+// console.log(anchore);
+// const img = document.querySelector(".promotions__box--img")
+// console.log(img)
+
+// anchore.forEach(a => {
+//     a.addEventListener("mouseenter", event => {
+//         const target = event.target;
+//         const id = target.getAttribute('id');
+//         if(id === "card1") {
+//             // anchore.style.backgroundImage= "url('../../assets/img/sports_1-1.png')";
+//             img.src ="assets/img/sports_1-1.png"
+//             console.log( img.src ="assets/img/sports_1-1.png")
+//         } else if(id === "card2") {
+//             img.src = "assets/img/free_s_1-1.png'"
+
+//         } else if (id === "card3") {
+//             img.src = "assets/img/casino_1_1.png'"
+//             console.log("pase")
+
+//         } else {
+//             img.src = "assets/img/horse_1_1.png'"  
+//             console.log("pase")
+//         }
+//     })
+// })
+
+},{}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -84,7 +142,7 @@ var searchFilter = exports.searchFilter = function searchFilter() {
 	fnFilter(document.getElementById('searchInput'), '.class-item__fragment', '.class-item');
 };
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -102,7 +160,7 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
 	});
 };
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -133,7 +191,7 @@ var topNav = exports.topNav = function topNav() {
 	myFunction();
 };
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 var _tnsSlider = require('./components/tns-slider');
@@ -144,11 +202,14 @@ var _modal = require('./components/modal');
 
 var _searchFilter = require('./components/searchFilter');
 
+var _promotions = require('./components/promotions');
+
 (function () {
 	(0, _topNav.topNav)();
 	(0, _tnsSlider.tnsSingle)();
 	(0, _modal.modal)();
 	if (document.body.classList.contains('home')) {
+		(0, _promotions.promotions)();
 		// functions here
 	} else if (document.body.classList.contains('portfolio')) {
 		// functions here
@@ -156,6 +217,6 @@ var _searchFilter = require('./components/searchFilter');
 	}
 })();
 
-},{"./components/modal":1,"./components/searchFilter":2,"./components/tns-slider":3,"./components/topNav":4}]},{},[5]);
+},{"./components/modal":1,"./components/promotions":2,"./components/searchFilter":3,"./components/tns-slider":4,"./components/topNav":5}]},{},[6]);
 
 //# sourceMappingURL=scripts-min.js.map

@@ -4,6 +4,7 @@
     background-size: cover;
 	// background-color: var(--color-backgroundTwo) ;
 	padding: 62px 0 84px 0;
+	margin-bottom: 0;
 	
 	&__container {
 		max-width: 1280px;
@@ -13,6 +14,10 @@
 		@include from(l) {
 			width: 100%;
 		}
+	}
+
+	&__container--h2 {
+		color: var(--color-heading);
 	}
 }
 
@@ -43,10 +48,11 @@
 		left: 35px;
 		display: flex;
 		flex-direction: column;
-		justify-content: start;
+		justify-content: end;
 		width: 60%;
 
 		@include from(l) {
+			height: 146px;
 			width: 247px;
 		}
 	}
@@ -83,24 +89,20 @@
 	}
 	
 .promotions {
-	background: transparent linear-gradient(180deg, #FFFFFF00 0%, #808080 100%) 0% 0% no-repeat padding-box;;
-	// width: 100vw;
-	padding: 62px 0 84px 0;
+	background: transparent linear-gradient(90deg, #000000 0%, #5B0F0C 20%, #6A110E 51%, #60100D 79%, #000000 100%) 0% 0% no-repeat padding-box;
 	mix-blend-mode: multiply;
+	padding: 62px 0 84px 0;
 
-	// &__box {
-	// 	@include from(l) {
-	// 		&img:hover {
-	// 			box-shadow: inset 0px 0px 26px #F5FF00;;
-	// 		}
-	// 	}
-	// }
+	&__container--h2 {
+		color: var(--color-background);
+		margin-bottom: 1rem;
+	}
 	
 	&__box--img {
 		z-index: -1;
-		@include from(l) {
-			box-shadow: inset 0px 0px 26px var(--color-third);
-		}	
+		// @include from(l) {
+		// 	box-shadow: inset 0px 0px 26px var(--color-third);
+		// }	
 	}
 	
 	&__box--anchore {
@@ -108,15 +110,6 @@
 		border-radius: 1rem;
 		
 		width: 100%;
-		@include from(l) {
-			&:hover {
-				box-shadow: inset 0px 0px 26px var(--color-third);
-				background-image: url(../../assets/img/sports_1-1.png);
-				background-repeat: no-repeat;
-				background-size: cover;
-			}
-		}
 	}
 	
 }
-	

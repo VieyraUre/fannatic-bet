@@ -1,52 +1,62 @@
-.tns-single{
-	
-	& > img:nth-child(odd){
-		background        : red;
+.tns-single {
+	max-width: 1280px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
 	}
-	& > img:nth-child(even){
-		background        :green;
-	}
-	
-	&__content{
+
+
+	// & > img:nth-child(odd){
+	// 	background        : red;
+	// }
+	// & > img:nth-child(even){
+	// 	background        :green;
+	// }
+
+	&__content {
 		min-height: 25vh;
-		display           : flex;
-		justify-content   : center;
-		// flex-direction    : column;
-		align-items       : center;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		color: white;
 		/*span{color        : white;}*/
 	}
 
-	&__img {
-		// border-radius: 0.5rem;
-		min-height: 25vh;
-		width: 100%;
-		// background-color: black;
-		
-		@include from(l) {
-			height: 547px;
-		}
-	}
+	// &__content--img {
+	// 	// border-radius: 0.5rem;
+	// 	min-height: 25vh;
+	// 	width: 30%;
+	// 	// background-color: black;
+
+	// 	@include from(l) {
+	// 		height: 547px;
+	// 	}
+	// }
 
 	&__content--cta {
-		position: absolute;
-		top: 103px;
-		left: 0;
-		right: 0;
 		color: var(--color-background);
 		max-width: 1280px;
 		width: 90%;
 		margin: auto;
-		display: none;
+		// display: none;
 	}
 
 }
 
-.container{
+.container {
 	width: 100%;
 	margin: 0px auto;
-	position: relative;
-	
-	&__slider{
+	// position: relative;
+	background-image: url(../../assets/img/1_background_fanattic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__slider {
 		border-radius: 1rem;
 		min-height: 25vh;
 	}

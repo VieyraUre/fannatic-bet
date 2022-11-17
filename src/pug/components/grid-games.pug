@@ -7,7 +7,7 @@ mixin gameCards(img, text, link, textLink)
 
 section(class="games")
 	div(class="games__container")
-		h2 Enjoy our products
+		h2(class="games__container--h2") Enjoy our products
 		div(class=' grid ed-grid s-grid-2 l-grid-3 row-gap l-big-section') 
 			-for(var i = 0; i < games.length ; i++)
 				-var game = games[i]
