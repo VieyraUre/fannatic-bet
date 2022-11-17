@@ -44,6 +44,8 @@
 		background-color: var(--color-first);
 		border-radius: 7px;
 		color: var(--color-background);
+		text-align: center;
+		font-family: var(--button-font);
 		
 		
 		@include from(l) {

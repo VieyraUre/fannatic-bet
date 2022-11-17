@@ -4,6 +4,33 @@
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+exports.initAcc = initAcc;
+function initAcc(elem, option) {
+	document.addEventListener('click', function (e) {
+		if (!e.target.matches(elem + ' .a-btn')) return;else {
+			if (!e.target.parentElement.classList.contains('active')) {
+				if (option == true) {
+					var elementList = document.querySelectorAll(elem + ' .a-container');
+					Array.prototype.forEach.call(elementList, function (e) {
+						e.classList.remove('active');
+					});
+				}
+				e.target.parentElement.classList.add('active');
+			} else {
+				e.target.parentElement.classList.remove('active');
+			}
+		}
+	});
+}
+initAcc('.accordion.v1', true);
+initAcc('.accordion.v2', false);
+
+},{}],2:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
 var sign = exports.sign = document.querySelector('.sign');
 var overlay = document.querySelector('.overlay');
 var modal = document.querySelector('.modal');
@@ -57,7 +84,7 @@ overlay.addEventListener('click', function (event) {
 
 // }
 
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -115,7 +142,7 @@ anchore.forEach(function (a) {
 //     })
 // })
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -142,7 +169,7 @@ var searchFilter = exports.searchFilter = function searchFilter() {
 	fnFilter(document.getElementById('searchInput'), '.class-item__fragment', '.class-item');
 };
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -160,7 +187,7 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
 	});
 };
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -191,7 +218,7 @@ var topNav = exports.topNav = function topNav() {
 	myFunction();
 };
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 var _tnsSlider = require('./components/tns-slider');
@@ -204,10 +231,13 @@ var _searchFilter = require('./components/searchFilter');
 
 var _promotions = require('./components/promotions');
 
+var _accordion = require('./components/accordion');
+
 (function () {
 	(0, _topNav.topNav)();
 	(0, _tnsSlider.tnsSingle)();
 	(0, _modal.modal)();
+	(0, _accordion.initAcc)();
 	if (document.body.classList.contains('home')) {
 		(0, _promotions.promotions)();
 		// functions here
@@ -217,6 +247,6 @@ var _promotions = require('./components/promotions');
 	}
 })();
 
-},{"./components/modal":1,"./components/promotions":2,"./components/searchFilter":3,"./components/tns-slider":4,"./components/topNav":5}]},{},[6]);
+},{"./components/accordion":1,"./components/modal":2,"./components/promotions":3,"./components/searchFilter":4,"./components/tns-slider":5,"./components/topNav":6}]},{},[7]);
 
 //# sourceMappingURL=scripts-min.js.map

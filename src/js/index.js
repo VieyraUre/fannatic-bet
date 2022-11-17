@@ -3,10 +3,12 @@ import {topNav} from './components/topNav';
 import {modal} from './components/modal';
 import {searchFilter} from './components/searchFilter';
 import {promotions} from './components/promotions';
+import {initAcc} from './components/accordion';
 (()=>{
 	topNav();
 	tnsSingle();
-	modal();	
+	modal();
+	initAcc();
 	if (document.body.classList.contains('home')) {	
 		promotions();
 		// functions here

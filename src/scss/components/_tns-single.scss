@@ -1,44 +1,97 @@
-.tns-single {
-	max-width: 1280px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-
-	&__wrapper {
-		display: flex;
-		justify-content: space-between;
+.tns-single{
+	max-height: 800px;
+	height: 100%;
+	
+	& > img:nth-child(odd){
+		background        : red;
 	}
-
-
-	// & > img:nth-child(odd){
-	// 	background        : red;
-	// }
-	// & > img:nth-child(even){
-	// 	background        :green;
-	// }
-
-	&__content {
+	& > img:nth-child(even){
+		background        :green;
+	}
+	
+	&__content{
+		display           : flex;
+		justify-content: stretch;
 		min-height: 25vh;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
+		max-width: 1280px;
+		width: 90%;
+		justify-content   : flex-start;
+		flex-direction    : column;
+		position: absolute;
+		top: 10px;
+		right: 0;
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
 		color: white;
+
+		@include from(l) {
+		}
 		/*span{color        : white;}*/
 	}
 
-	// &__content--img {
-	// 	// border-radius: 0.5rem;
-	// 	min-height: 25vh;
-	// 	width: 30%;
-	// 	// background-color: black;
+	&__content--div {
+		display: flex;
+		margin-bottom: 0;
+		
+		@include from(l) {
+			height: 170px;
+		}
+	}
+	
+	&__content--big {
+		font-family: var(--heading-title);
+		color: var(--color-first );
+		margin-bottom: 0;
+		font-size: 80px;
 
-	// 	@include from(l) {
-	// 		height: 547px;
-	// 	}
-	// }
+		@include from (l) {
+			font-size: 133px;
+		}
+	}
+	
+	
+	&__content--medium {
+		margin-bottom: 0;
+		font-weight: bolder;
+		text-transform: uppercase;
+		@include from (l) {
+			font-size: 100px;
+			height: 100px;
+		}
+	}
+	
+	&__content--small {
+		margin-bottom: 0;
+		font-weight: bolder;
+		text-transform: uppercase;
+		@include from (l) {
+			height: 100px;
+			font-size: 66px;
+		}
+	}
+	
+	&__content--red {
+		color: var(--color-first );
+		margin-right: 1rem;
+	}
+	
+	&__img {
+		// border-radius: 0.5rem;
+		min-height: 25vh;
+		width: 100%;
+		// background-color: black;
+		
+		@include from(l) {
+			height: 547px;
+		}
+	}
 
 	&__content--cta {
+		position: absolute;
+		top: 103px;
+		left: 0;
+		right: 0;
 		color: var(--color-background);
 		max-width: 1280px;
 		width: 90%;
@@ -48,13 +101,27 @@
 
 }
 
+.container{
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+	
+	&__slider{
+		border-radius: 1rem;
+		min-height: 25vh;
+	}
+}
+
+
+
+
 .container {
 	width: 100%;
 	margin: 0px auto;
 	// position: relative;
-	background-image: url(../../assets/img/1_background_fanattic.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	// background-image: url(../../assets/img/1_background_fanattic.jpg);
+	// background-repeat: no-repeat;
+	// background-size: cover;
 
 	&__slider {
 		border-radius: 1rem;

@@ -1,0 +1,24 @@
+section(class="rules")
+	div(class='accordion-container ed-grid')
+		//- include:markdown-it(html) ../md/sport-rules.md
+		div(class='accordion v1')
+			div(class="a-container")
+				p(class="a-btn") House Rules <span></span>
+				div(class='a-panel')
+					include:markdown-it(html) ../md/houseRules.md
+					div(class='accordion v1')
+			div(class="a-container")
+				p(class="a-btn") Sports Rules <span></span>
+				div(class='a-panel')
+					include:markdown-it(html) ../md/casinoRules.md
+					include table
+					div(class='accordion v1')
+			div(class="a-container")
+				p(class="a-btn") Casino Rules <span></span>
+				div(class='a-panel')
+					include:markdown-it(html) ../md/casinoRules.md
+	div(class="background-img")
+	
+
+
+

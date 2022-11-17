@@ -3,32 +3,32 @@
 		[
 			{
 				"item"		:"Sports",
-				"link"		:"jhdjahd"
+				"link"		:"sports.html"
 			},
 
 			{
 				"item"		:"Live Betting",
-				"link"		:""
+				"link"		:"live-betting.html"
 			},
 
 			{
 				"item"		:"Bonuses",
-				"link"		:""
+				"link"		:"bonuses.html"
 			},
 
 			{
 				"item"		:"Racebook",
-				"link"		:""
+				"link"		:"racebook.html"
 			},
 
 			{
 				"item"		:"Casino",
-				"link"		:""
+				"link"		:"casino.html"
 			},
 
 			{
 				"item"		:"Banking",
-				"link"		:""
+				"link"		:"banking"
 			}
 		],
 
@@ -313,17 +313,17 @@
 			"column1": [
 				{
 					"item"			:"Online sportsbook",
-					"link"			:"ejkjfewjfw"
+					"link"			:"sports.html"
 				},
 
 				{
 					"item"			:"Online Casino",
-					"link"			:"ejkjfewjfw"
+					"link"			:"casino.html"
 				},
 
 				{
 					"item"			:"Online racebook",
-					"link"			:"ejkjfewjfw"
+					"link"			:"racebook.html"
 				},
 
 				{
@@ -333,41 +333,41 @@
 
 				{
 					"item"			:"About us",
-					"link"			:"ejkjfewjfw"
+					"link"			:"signUp.html"
 				}
 			],
 
 			"column2": [
 				{
 					"item"			:"Banking Options",
-					"link"			:"ejkjfewjfw"
+					"link"			:"banking.html"
 				},
 
 				{
 					"item"			:"Bonuses & promotions",
-					"link"			:"ejkjfewjfw"
+					"link"			:"bonuses.html"
 				},
 
 				{
 					"item"			:"sportsbook agent admin",
-					"link"			:"ejkjfewjfw"
+					"link"			:"login.html"
 				}
 			],
 
 			"column3": [
 				{
 					"item"			:"House Rules",
-					"link"			:"ejkjfewjfw"
+					"link"			:"rules.html"
 				},
 
 				{
 					"item"			:"Sports Rules",
-					"link"			:"ejkjfewjfw"
+					"link"			:"rules.html"
 				},
 
 				{
 					"item"			:"Casino rules",
-					"link"			:"ejkjfewjfw"
+					"link"			:"rules.html"
 				}
 			],
 
@@ -413,12 +413,12 @@
 				{
 					"field1"	:"100%",
 					"field2"	:"welcome",
-					"field3"	:"casino",
+					"field3"	:"sports",
 					"field4"	:"bonus",
 					"field5"	:"",
 					"link"		: "hdwqhd",
 					"linkText"	: "join now",
-					"image"		:"assets/img/player.png",
+					"image"		:"assets/img/3_background_fanattic.jpg",
 					"alt"		:"jsjsjs"
 						
 				},
@@ -426,28 +426,76 @@
 				{
 					"field1"	:"100%",
 					"field2"	:"welcome",
-					"field3"	:"sports",
+					"field3"	:"casino",
 					"field4"	:"bonus",
 					"field5"	:"",
 					"link"		: "hdwqhd",
 					"linkText"	: "join now",
-					"image"		:"assets/img/dados.png",
+					"image"		:"assets/img/2_background_fanattic.jpg",
 					"alt"		:"jsjsjs"
 						
 				},
 
 				{
-					"field1"	:"up tp",
-					"field2"	:"8%",
-					"field3"	:"dayly",
-					"field4"	:"horse",
-					"field5"	:"rebate",
+					"field0"	:"up to",
+					"field1"	:"8%",
+					"field2"	:"dayly",
+					"field3"	:"horse",
+					"field4"	:"rebate",
 					"link"		: "hdwqhd",
 					"linkText"	: "join now",
-					"image"		:"assets/img/horses.png",
+					"image"		:"assets/img/1_background_fanattic.jpg",
 					"alt"		:"jsjsjs"
 						
 				}
 				
-			]
+			],
+
+			"bets" : 
+		[
+			{
+				"td1" : "Pro Football",
+				"td2" : "55 minutes of play"
+			},
+			{
+				"td1" : "College Football",
+				"td2" : "55 minutes of play"
+			},
+			{
+				"td1" : "Basketball",
+				"td2" : "55 minutes of play"
+			},
+			{
+				"td1" : "Pro Basketball",
+				"td2" : "43 minutes of play"
+			},
+			{
+				"td1" : "College Basketball",
+				"td2" : "35 minutes of play"
+			},
+			{
+				"td1" : "Hockey",
+				"td2" : "55 minutos de juego"
+			},
+			{
+				"td1" : "Baseball Sides",
+				"td2" : "5 innings (8 1/2 if the home team is winning)"
+			},
+			{
+				"td1" : "Baseball Totals",
+				"td2" : "9 innings (8 1/2 if the home team is winning)"
+			},
+			{
+				"td1" : "Run Lines",
+				"td2" : "9 innings (8 1/2 if the home team is winning)"
+			},
+			{
+				"td1" : "Tennis",
+				"td2" : "One ball served"
+			},
+			{
+				"td1" : "Soccer",
+				"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
+			}
+		]
 }
