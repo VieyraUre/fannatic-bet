@@ -1,4 +1,5 @@
 import {tnsSingle} from './components/tns-slider';
+import {tnsCarousell} from './components/tns-carrusel';
 import {topNav} from './components/topNav';
 import {modal} from './components/modal';
 import {searchFilter} from './components/searchFilter';
@@ -9,6 +10,7 @@ import {initAcc} from './components/accordion';
 	tnsSingle();
 	modal();
 	initAcc();
+	tnsCarousell();
 	if (document.body.classList.contains('home')) {	
 		promotions();
 		// functions here

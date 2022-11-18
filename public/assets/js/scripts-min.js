@@ -85,35 +85,33 @@ overlay.addEventListener('click', function (event) {
 // }
 
 },{}],3:[function(require,module,exports){
-"use strict";
+// export const anchore = document.querySelectorAll(".promotions__box--anchore");
+// console.log(anchore);
+// const img = document.querySelector(".promotions__box--img")
+// console.log(img)
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-var anchore = exports.anchore = document.querySelectorAll(".promotions__box--anchore");
-console.log(anchore);
-var img = document.querySelector(".promotions__box--img");
-console.log(img);
+// anchore.forEach(a => {
+//     a.addEventListener("mouseenter", event => {
+//         const target = event.target;
+//         const id = target.getAttribute('id');
+//         if(id === "card1") {
+//             img.style.backgroundImage = "url('../../assets/img/sports_1-1.png')"
+//             console.log("pase")
+//         } else if(id === "card2") {
+//             img.style.backgroundImage = "url('../../assets/img/free_s_1-1.png')"
+//             console.log("pase")
 
-anchore.forEach(function (a) {
-    a.addEventListener("mouseenter", function (event) {
-        var target = event.target;
-        var id = target.getAttribute('id');
-        if (id === "card1") {
-            img.style.backgroundImage = "url('../../assets/img/sports_1-1.png')";
-            console.log("pase");
-        } else if (id === "card2") {
-            img.style.backgroundImage = "url('../../assets/img/free_s_1-1.png')";
-            console.log("pase");
-        } else if (id === "card3") {
-            img.style.backgroundImage = "url('../../assets/img/casino_1_1.png)";
-            console.log("pase");
-        } else {
-            img.style.backgroundImage = "url('../../assets/img/horse_1_1.png)";
-            console.log("pase");
-        }
-    });
-});
+//         } else if (id === "card3") {
+//             img.style.backgroundImage = "url('../../assets/img/casino_1_1.png)"
+//             console.log("pase")
+
+//         } else {
+//             img.style.backgroundImage = "url('../../assets/img/horse_1_1.png)"  
+//             console.log("pase")
+//         }
+//     })
+// })
+
 
 // export const anchore = document.querySelectorAll(".promotions__box--anchore");
 // console.log(anchore);
@@ -141,6 +139,7 @@ anchore.forEach(function (a) {
 //         }
 //     })
 // })
+"use strict";
 
 },{}],4:[function(require,module,exports){
 'use strict';
@@ -173,6 +172,46 @@ var searchFilter = exports.searchFilter = function searchFilter() {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
+    var slider = tns({
+        container: '#tnsCarousell',
+        items: 1,
+        slideBy: 1,
+        swipeAngle: false,
+        speed: 400,
+        edgePadding: 40,
+        nav: false,
+        mouseDrag: true,
+        controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
+        responsive: {
+            480: {
+                items: 2
+            },
+            640: {
+                items: 3
+            },
+            800: {
+                items: 4
+            },
+            960: {
+                items: 5
+            },
+            1120: {
+                items: 5
+            },
+            1280: {
+                items: 5
+            }
+        }
+    });
+};
+
+},{}],6:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 var tnsSingle = exports.tnsSingle = function tnsSingle() {
@@ -187,7 +226,7 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
 	});
 };
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -218,10 +257,12 @@ var topNav = exports.topNav = function topNav() {
 	myFunction();
 };
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 var _tnsSlider = require('./components/tns-slider');
+
+var _tnsCarrusel = require('./components/tns-carrusel');
 
 var _topNav = require('./components/topNav');
 
@@ -238,6 +279,7 @@ var _accordion = require('./components/accordion');
 	(0, _tnsSlider.tnsSingle)();
 	(0, _modal.modal)();
 	(0, _accordion.initAcc)();
+	(0, _tnsCarrusel.tnsCarousell)();
 	if (document.body.classList.contains('home')) {
 		(0, _promotions.promotions)();
 		// functions here
@@ -247,6 +289,6 @@ var _accordion = require('./components/accordion');
 	}
 })();
 
-},{"./components/accordion":1,"./components/modal":2,"./components/promotions":3,"./components/searchFilter":4,"./components/tns-slider":5,"./components/topNav":6}]},{},[7]);
+},{"./components/accordion":1,"./components/modal":2,"./components/promotions":3,"./components/searchFilter":4,"./components/tns-carrusel":5,"./components/tns-slider":6,"./components/topNav":7}]},{},[8]);
 
 //# sourceMappingURL=scripts-min.js.map

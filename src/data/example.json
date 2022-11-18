@@ -497,5 +497,106 @@
 				"td1" : "Soccer",
 				"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
 			}
+		],
+
+		"casinos": [
+			{
+				"img"	:"assets/img/live.png",
+				"alt"	:"alt",
+				"title"	:"Live Games"
+			},
+			{
+				"img"	:"assets/img/table.png",
+				"alt"	:"alt",
+				"title"	:"Table Games"
+			},
+			{
+				"img"	:"assets/img/slots.png",
+				"alt"	:"alt",
+				"title"	:"Slots"
+			},
+			{
+				"img"	:"assets/img/3d-slots.png",
+				"alt"	:"alt",
+				"title"	:"3D Slots"
+			},
+			{
+				"img"	:"assets/img/video-poker.png",
+				"alt"	:"alt",
+				"title"	:"Video Poker"
+			},
+			{
+				"img"	:"assets/img/virtual-sports.png",
+				"alt"	:"alt",
+				"title"	:"Virtual Sports"
+			},
+			{
+				"img"	:"assets/img/bingo.png",
+				"alt"	:"alt",
+				"title"	:"Bingo"
+			},
+			{
+				"img"	:"assets/img/keno.png",
+				"alt"	:"alt",
+				"title"	:"Keno"
+			},
+			{
+				"img"	:"assets/img/scratch-card.png",
+				"alt"	:"alt",
+				"title"	:"Scratch Cards"
+			},
+			{
+				"img"	:"assets/img/fixed-odds.png",
+				"alt"	:"alt",
+				"title"	:"Fixed Odds"
+			},
+			{
+				"img"	:"assets/img/other-game.png",
+				"alt"	:"alt",
+				"title"	:"Other Games"
+			},
+			{
+				"img"	:"assets/img/blackjack.png",
+				"alt"	:"alt",
+				"title"	:"Blackjack"
+			}
+		],
+
+		
+		"providers": [
+			{
+				"img"	:"assets/img/pragmatic_play.png",
+				"alt"	:"alt"
+			},
+			
+			{
+				"img"	:"assets/img/slot-exchange.png",
+				"alt"	:"alt"
+			},
+			
+			{
+				"img"	:"assets/img/betsoft.png",
+				"alt"	:"alt"
+			},
+			
+			{
+				"img"	:"assets/img/conceptgaming.png",
+				"alt"	:"alt"
+			},
+			
+			{
+				"img"	:"assets/img/platinum.png",
+				"alt"	:"alt"
+			},
+			{
+				"img"	:"assets/img/tomhorn.png",
+				"alt"	:"alt"
+			},
+
+			{
+				"img"	:"assets/img/ezugi.png",
+				"alt"	:"alt"
+			}
+			
 		]
 }

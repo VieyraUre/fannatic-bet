@@ -116,3 +116,22 @@ img {
 		}
 	}
 }
+
+//display
+
+.display {
+	display: none;
+
+	@include from(l) {
+		display: block;
+	}
+}
+
+.block {
+	display: block;
+	
+	@include from(l) {
+		display: none;
+	}
+
+}

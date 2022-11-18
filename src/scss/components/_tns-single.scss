@@ -1,6 +1,8 @@
 .tns-single{
-	max-height: 800px;
-	height: 100%;
+	max-height: 1280px;
+	height: 80vh;
+
+	background-color: #250f12;
 	
 	& > img:nth-child(odd){
 		background        : red;
@@ -8,24 +10,33 @@
 	& > img:nth-child(even){
 		background        :green;
 	}
+
+	@include from(l) {
+		height: auto;
+	}
 	
 	&__content{
-		display           : flex;
-		justify-content: stretch;
-		min-height: 25vh;
+		display: flex;
+		flex-direction    : column;
+		justify-content   : flex-start;
+		// min-height: 50vh;
 		max-width: 1280px;
 		width: 90%;
-		justify-content   : flex-start;
-		flex-direction    : column;
+		height: 70vh;
 		position: absolute;
-		top: 10px;
+		top: 0px;
 		right: 0;
 		left: 0;
 		margin-left: auto;
 		margin-right: auto;
 		color: white;
-
+		// border: 2px solid white;
+		align-items: center;
+		
 		@include from(l) {
+			// justify-content   : flex-start;
+			align-items: flex-start;
+			top: 10px;
 		}
 		/*span{color        : white;}*/
 	}
@@ -33,6 +44,7 @@
 	&__content--div {
 		display: flex;
 		margin-bottom: 0;
+		height: 100px;
 		
 		@include from(l) {
 			height: 170px;
@@ -43,10 +55,10 @@
 		font-family: var(--heading-title);
 		color: var(--color-first );
 		margin-bottom: 0;
-		font-size: 80px;
+		font-size: 102px;
 
 		@include from (l) {
-			font-size: 133px;
+			font-size: 166px;
 		}
 	}
 	
@@ -55,6 +67,8 @@
 		margin-bottom: 0;
 		font-weight: bolder;
 		text-transform: uppercase;
+		font-size: 57px;
+
 		@include from (l) {
 			font-size: 100px;
 			height: 100px;
@@ -65,6 +79,8 @@
 		margin-bottom: 0;
 		font-weight: bolder;
 		text-transform: uppercase;
+		font-size: 42px;
+
 		@include from (l) {
 			height: 100px;
 			font-size: 66px;
@@ -78,8 +94,9 @@
 	
 	&__img {
 		// border-radius: 0.5rem;
-		min-height: 25vh;
+		min-height: 50vh;
 		width: 100%;
+		height: 100%;
 		// background-color: black;
 		
 		@include from(l) {
@@ -87,37 +104,25 @@
 		}
 	}
 
-	&__content--cta {
-		position: absolute;
-		top: 103px;
-		left: 0;
-		right: 0;
-		color: var(--color-background);
-		max-width: 1280px;
-		width: 90%;
-		margin: auto;
-		// display: none;
-	}
+	// &__content--cta {
+	// 	position: absolute;
+	// 	top: 103px;
+	// 	left: 0;
+	// 	right: 0;
+	// 	color: var(--color-background);
+	// 	max-width: 1280px;
+	// 	width: 90%;
+	// 	margin: auto;
+	// 	// display: none;
+	// }
 
 }
-
-.container{
-	width: 100%;
-	margin: 0px auto;
-	position: relative;
-	
-	&__slider{
-		border-radius: 1rem;
-		min-height: 25vh;
-	}
-}
-
-
-
 
 .container {
 	width: 100%;
 	margin: 0px auto;
+	max-height: 550px;
+	height: 100%;
 	// position: relative;
 	// background-image: url(../../assets/img/1_background_fanattic.jpg);
 	// background-repeat: no-repeat;

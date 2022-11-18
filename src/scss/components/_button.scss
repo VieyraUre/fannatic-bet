@@ -46,9 +46,15 @@
 		color: var(--color-background);
 		text-align: center;
 		font-family: var(--button-font);
+		font-size: var(--h2-font-size);
+		max-width: 400px;
+		width: 80%;
+		position: absolute;
+    	bottom: 0;
 		
 		
 		@include from(l) {
+			position: relative;
 			font-size: 55px;
 			width: 512px;
 			padding: 9px 50px;
@@ -81,10 +87,4 @@
 	}
 }
 
-.display {
-	display: none;
 
-	@include from(l) {
-		display: block;
-	}
-}
