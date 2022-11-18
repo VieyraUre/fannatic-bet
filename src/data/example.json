@@ -2,8 +2,18 @@
 	"list":
 		[
 			{
+				"item"		:"Casino",
+				"link"		:"casino.html"
+			},
+
+			{
 				"item"		:"Sports",
 				"link"		:"sports.html"
+			},
+
+			{
+				"item"		:"Racebook",
+				"link"		:"racebook.html"
 			},
 
 			{
@@ -17,18 +27,8 @@
 			},
 
 			{
-				"item"		:"Racebook",
-				"link"		:"racebook.html"
-			},
-
-			{
-				"item"		:"Casino",
-				"link"		:"casino.html"
-			},
-
-			{
 				"item"		:"Banking",
-				"link"		:"banking"
+				"link"		:"banking.html"
 			}
 		],
 
@@ -272,28 +272,68 @@
 			"promotions": [
 				{
 					"id"			:"card1",
-					"img"			:"assets/img/sports_1.png",
+					"img"			:"assets/img/1_bonuses.png",
+					"alt"			:"50% sports welcome bonus",
 					"link"			:"#",
 					"textLink"		:"initial deposit only"
 					
 				},
 				{
 					"id"			:"card2",
-					"img"			:"assets/img/free_s_1.png",
+					"img"			:"assets/img/2_bonuses.png",
+					"alt"			:"25 free spins",
 					"link"			:"/juegos-vivo",
 					"textLink"		:"initial deposit only"
 					
 				},
 				{
 					"id"			:"card3",
-					"img"			:"assets/img/casino_1.png",
+					"img"			:"assets/img/3_bonuses.png",
+					"alt"			:"50% casino reload",
 					"link"			:"/juegos-vivo",
 					"textLink"			:"reload deposit"
 					
 				},
 				{
 					"id"			:"card4",
-					"img"			:"assets/img/horse_1.png",
+					"img"			:"assets/img/4_bonuses.png",
+					"alt"			:"up to 8% daily horse rebate",
+					"link"			:"/juegos-vivo",
+					"textLink"			:""
+					
+				}
+				
+			],
+			
+			"promotionsMobile": [
+				{
+					"id"			:"card1",
+					"img"			:"assets/img/1_moibile-bonuses.png",
+					"alt"			:"50% sports welcome bonus",
+					"link"			:"#",
+					"textLink"		:"initial deposit only"
+					
+				},
+				{
+					"id"			:"card2",
+					"img"			:"assets/img/2_moibile-bonuses.png",
+					"alt"			:"25 free spins",
+					"link"			:"/juegos-vivo",
+					"textLink"		:"initial deposit only"
+					
+				},
+				{
+					"id"			:"card3",
+					"img"			:"assets/img/3_moibile-bonuses.png",
+					"alt"			:"50% casino reload",
+					"link"			:"/juegos-vivo",
+					"textLink"			:"reload deposit"
+					
+				},
+				{
+					"id"			:"card4",
+					"img"			:"assets/img/4_moibile-bonuses.png",
+					"alt"			:"up to 8% daily horse rebate",
 					"link"			:"/juegos-vivo",
 					"textLink"			:""
 					
@@ -451,114 +491,168 @@
 				
 			],
 
+			"slidesMobile": [
+				{
+					"field1"	:"100%",
+					"field2"	:"welcome",
+					"field3"	:"sports",
+					"field4"	:"bonus",
+					"field5"	:"",
+					"link"		: "hdwqhd",
+					"linkText"	: "join now",
+					"image"		:"assets/img/1_slider-mobile.png",
+					"alt"		:"jsjsjs"
+						
+				},
+
+				{
+					"field1"	:"100%",
+					"field2"	:"welcome",
+					"field3"	:"casino",
+					"field4"	:"bonus",
+					"field5"	:"",
+					"link"		: "hdwqhd",
+					"linkText"	: "join now",
+					"image"		:"assets/img/2_slider-mobile.png",
+					"alt"		:"jsjsjs"
+						
+				},
+
+				{
+					"field0"	:"up to",
+					"field1"	:"8%",
+					"field2"	:"dayly",
+					"field3"	:"horse",
+					"field4"	:"rebate",
+					"link"		: "hdwqhd",
+					"linkText"	: "join now",
+					"image"		:"assets/img/3_slider-mobile.png",
+					"alt"		:"jsjsjs"
+						
+				}
+				
+			],
+
 			"bets" : 
-		[
-			{
-				"td1" : "Pro Football",
-				"td2" : "55 minutes of play"
-			},
-			{
-				"td1" : "College Football",
-				"td2" : "55 minutes of play"
-			},
-			{
-				"td1" : "Basketball",
-				"td2" : "55 minutes of play"
-			},
-			{
-				"td1" : "Pro Basketball",
-				"td2" : "43 minutes of play"
-			},
-			{
-				"td1" : "College Basketball",
-				"td2" : "35 minutes of play"
-			},
-			{
-				"td1" : "Hockey",
-				"td2" : "55 minutos de juego"
-			},
-			{
-				"td1" : "Baseball Sides",
-				"td2" : "5 innings (8 1/2 if the home team is winning)"
-			},
-			{
-				"td1" : "Baseball Totals",
-				"td2" : "9 innings (8 1/2 if the home team is winning)"
-			},
-			{
-				"td1" : "Run Lines",
-				"td2" : "9 innings (8 1/2 if the home team is winning)"
-			},
-			{
-				"td1" : "Tennis",
-				"td2" : "One ball served"
-			},
-			{
-				"td1" : "Soccer",
-				"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
-			}
-		],
+[
+				{
+					"td1" : "Pro Football",
+					"td2" : "55 minutes of play"
+				},
+				{
+					"td1" : "College Football",
+					"td2" : "55 minutes of play"
+				},
+				{
+					"td1" : "Basketball",
+					"td2" : "55 minutes of play"
+				},
+				{
+					"td1" : "Pro Basketball",
+					"td2" : "43 minutes of play"
+				},
+				{
+					"td1" : "College Basketball",
+					"td2" : "35 minutes of play"
+				},
+				{
+					"td1" : "Hockey",
+					"td2" : "55 minutos de juego"
+				},
+				{
+					"td1" : "Baseball Sides",
+					"td2" : "5 innings (8 1/2 if the home team is winning)"
+				},
+				{
+					"td1" : "Baseball Totals",
+					"td2" : "9 innings (8 1/2 if the home team is winning)"
+				},
+				{
+					"td1" : "Run Lines",
+					"td2" : "9 innings (8 1/2 if the home team is winning)"
+				},
+				{
+					"td1" : "Tennis",
+					"td2" : "One ball served"
+				},
+				{
+					"td1" : "Soccer",
+					"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
+				}
+			],
 
 		"casinos": [
 			{
 				"img"	:"assets/img/live.png",
 				"alt"	:"alt",
-				"title"	:"Live Games"
+				"title"	:"Live Games",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/table.png",
 				"alt"	:"alt",
-				"title"	:"Table Games"
+				"title"	:"Table Games",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/slots.png",
 				"alt"	:"alt",
-				"title"	:"Slots"
+				"title"	:"Slots",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/3d-slots.png",
 				"alt"	:"alt",
-				"title"	:"3D Slots"
+				"title"	:"3D Slots",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/video-poker.png",
 				"alt"	:"alt",
-				"title"	:"Video Poker"
+				"title"	:"Video Poker",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/virtual-sports.png",
 				"alt"	:"alt",
-				"title"	:"Virtual Sports"
+				"title"	:"Virtual Sports",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/bingo.png",
 				"alt"	:"alt",
-				"title"	:"Bingo"
+				"title"	:"Bingo",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/keno.png",
 				"alt"	:"alt",
-				"title"	:"Keno"
+				"title"	:"Keno",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/scratch-card.png",
 				"alt"	:"alt",
-				"title"	:"Scratch Cards"
+				"title"	:"Scratch Cards",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/fixed-odds.png",
 				"alt"	:"alt",
-				"title"	:"Fixed Odds"
+				"title"	:"Fixed Odds",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/other-game.png",
 				"alt"	:"alt",
-				"title"	:"Other Games"
+				"title"	:"Other Games",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			},
 			{
 				"img"	:"assets/img/blackjack.png",
 				"alt"	:"alt",
-				"title"	:"Blackjack"
+				"title"	:"Blackjack",
+				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
 			}
 		],
 
@@ -598,5 +692,47 @@
 				"alt"	:"alt"
 			}
 			
+		],
+
+		"methods"	:
+		[
+			{
+				"img"	: "assets/img/bitcoin-cash-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/visa-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/zelle-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/mastercard-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/ethereum-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/litecoin-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/p2p-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/bitcoin-icon.png",
+				"alt"	: "bitcoin cash"
+			},
+			{
+				"img"	: "assets/img/usdt-icon.png",
+				"alt"	: "bitcoin cash"
+			}
 		]
+
+
 }

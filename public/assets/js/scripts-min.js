@@ -26,63 +26,48 @@ initAcc('.accordion.v1', true);
 initAcc('.accordion.v2', false);
 
 },{}],2:[function(require,module,exports){
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-var sign = exports.sign = document.querySelector('.sign');
-var overlay = document.querySelector('.overlay');
-var modal = document.querySelector('.modal');
-
-var openModal = function openModal() {
-	modal.classList.add('expand');
-	overlay.classList.add('expand');
+var paymentSlider = exports.paymentSlider = function paymentSlider() {
+	var slider = tns({
+		container: "#payment-carousell",
+		items: 1,
+		slideBy: 1,
+		swipeAngle: false,
+		autoplayButtonOutput: false,
+		speed: 400,
+		edgePadding: 16,
+		nav: false,
+		autoplay: true,
+		mouseDrag: true,
+		responsive: {
+			320: {
+				items: 3
+			},
+			480: {
+				items: 4
+			},
+			640: {
+				items: 5
+			},
+			800: {
+				items: 6
+			},
+			960: {
+				items: 6
+			},
+			1120: {
+				items: 6
+			},
+			1280: {
+				items: 6
+			}
+		}
+	});
 };
-
-var closeModal = function closeModal() {
-	overlay.classList.remove('expand');
-	modal.classList.remove('expand');
-};
-
-sign.addEventListener('click', function (event) {
-	event.preventDefault();
-	openModal();
-});
-
-overlay.addEventListener('click', function (event) {
-	event.preventDefault();
-	closeModal();
-});
-
-// export const sign = () => {
-// 	const sign = document.querySelector('.sign');
-// 	const overlay= document.querySelector('.overlay')
-// 	const modal= document.querySelector('.modal')
-
-
-// 	const openModal = () => {
-// 		modal.classList.add('expand');
-// 		overlay.classList.add('expand');
-// 	}
-
-// 	const closeModal = () => {
-// 		overlay.classList.remove('expand');
-// 		modal.classList.remove('expand');
-// 	}
-
-// 	sign.addEventListener('click', event => {
-// 		event.preventDefault();
-// 		openModal();
-// 	});
-
-
-// 	overlay.addEventListener('click', event => {
-// 		event.preventDefault();
-// 		closeModal();
-// 	})
-
-// }
 
 },{}],3:[function(require,module,exports){
 // export const anchore = document.querySelectorAll(".promotions__box--anchore");
@@ -174,39 +159,27 @@ var searchFilter = exports.searchFilter = function searchFilter() {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
-    var slider = tns({
-        container: '#tnsCarousell',
-        items: 1,
-        slideBy: 1,
-        swipeAngle: false,
-        speed: 400,
-        edgePadding: 40,
-        nav: false,
-        mouseDrag: true,
-        controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
-        responsive: {
-            480: {
-                items: 2
-            },
-            640: {
-                items: 3
-            },
-            800: {
-                items: 4
-            },
-            960: {
-                items: 5
-            },
-            1120: {
-                items: 5
-            },
-            1280: {
-                items: 5
-            }
+var tabs = function tabs() {
+    var d = document,
+        tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__tab')),
+        panels = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__panel'));
+
+    d.getElementById('tabs').addEventListener('click', function (e) {
+        if (e.target.classList.contains('tabs-container__tab')) {
+            var i = tabs.indexOf(e.target);
+            tabs.map(function (tab) {
+                return tab.classList.remove('is-active');
+            });
+            tabs[i].classList.add('is-active');
+            panels.map(function (tab) {
+                return tab.classList.remove('is-active');
+            });
+            panels[i].classList.add('is-active');
         }
     });
 };
+
+exports.default = tabs;
 
 },{}],6:[function(require,module,exports){
 'use strict';
@@ -214,7 +187,7 @@ var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-var tnsSingle = exports.tnsSingle = function tnsSingle() {
+var tnsSingle = function tnsSingle() {
 	var slider = tns({
 		container: '#tnsSingle',
 		items: 1,
@@ -225,6 +198,47 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
 		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
 	});
 };
+
+var tnsSingleMobile = function tnsSingleMobile() {
+	var slider = tns({
+		container: '#tnsSingleMobile',
+		items: 1,
+		slideBy: 1,
+		speed: 1000,
+		mode: 'gallery',
+		mouseDrag: true,
+		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+	});
+};
+
+var tnsSingleGames = function tnsSingleGames() {
+	var slider = tns({
+		container: '#tnsSingleGames',
+		items: 1,
+		slideBy: 1,
+		speed: 1000,
+		mode: 'gallery',
+		mouseDrag: true,
+		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+	});
+};
+
+var tnsSinglePromitions = function tnsSinglePromitions() {
+	var slider = tns({
+		container: '#tnsSinglePromitions',
+		items: 1,
+		slideBy: 1,
+		speed: 1000,
+		mode: 'gallery',
+		mouseDrag: true,
+		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+	});
+};
+
+exports.tnsSingle = tnsSingle;
+exports.tnsSingleGames = tnsSingleGames;
+exports.tnsSinglePromitions = tnsSinglePromitions;
+exports.tnsSingleMobile = tnsSingleMobile;
 
 },{}],7:[function(require,module,exports){
 'use strict';
@@ -262,33 +276,42 @@ var topNav = exports.topNav = function topNav() {
 
 var _tnsSlider = require('./components/tns-slider');
 
-var _tnsCarrusel = require('./components/tns-carrusel');
+var _paymentSlider = require('./components/payment-slider');
 
 var _topNav = require('./components/topNav');
-
-var _modal = require('./components/modal');
 
 var _searchFilter = require('./components/searchFilter');
 
 var _promotions = require('./components/promotions');
 
+var _tabs = require('./components/tabs');
+
+var _tabs2 = _interopRequireDefault(_tabs);
+
 var _accordion = require('./components/accordion');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (function () {
 	(0, _topNav.topNav)();
 	(0, _tnsSlider.tnsSingle)();
-	(0, _modal.modal)();
+	// tnsSingleMobile();
 	(0, _accordion.initAcc)();
-	(0, _tnsCarrusel.tnsCarousell)();
+	(0, _paymentSlider.paymentSlider)();
+	(0, _tnsSlider.tnsSingleGames)();
+	(0, _tnsSlider.tnsSinglePromitions)();
 	if (document.body.classList.contains('home')) {
 		(0, _promotions.promotions)();
 		// functions here
 	} else if (document.body.classList.contains('portfolio')) {
 		// functions here
 		(0, _searchFilter.searchFilter)();
+	} else if (document.body.classList.contains('banking')) {
+		// functions here
+		(0, _tabs2.default)();
 	}
 })();
 
-},{"./components/accordion":1,"./components/modal":2,"./components/promotions":3,"./components/searchFilter":4,"./components/tns-carrusel":5,"./components/tns-slider":6,"./components/topNav":7}]},{},[8]);
+},{"./components/accordion":1,"./components/payment-slider":2,"./components/promotions":3,"./components/searchFilter":4,"./components/tabs":5,"./components/tns-slider":6,"./components/topNav":7}]},{},[8]);
 
 //# sourceMappingURL=scripts-min.js.map

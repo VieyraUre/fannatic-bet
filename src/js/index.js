@@ -1,22 +1,27 @@
-import {tnsSingle} from './components/tns-slider';
-import {tnsCarousell} from './components/tns-carrusel';
+import {tnsSingle, tnsSingleMobile, tnsSingleGames, tnsSinglePromitions} from './components/tns-slider';
+import {paymentSlider} from './components/payment-slider';
 import {topNav} from './components/topNav';
-import {modal} from './components/modal';
 import {searchFilter} from './components/searchFilter';
 import {promotions} from './components/promotions';
+import tabs from './components/tabs';
 import {initAcc} from './components/accordion';
 (()=>{
 	topNav();
 	tnsSingle();
-	modal();
+	// tnsSingleMobile();
 	initAcc();
-	tnsCarousell();
+	paymentSlider();
+	tnsSingleGames();
+	tnsSinglePromitions();
 	if (document.body.classList.contains('home')) {	
 		promotions();
 		// functions here
 	}else if (document.body.classList.contains('portfolio')) {
 		// functions here
 		searchFilter();
+	}else if (document.body.classList.contains('banking')) {
+		// functions here
+		tabs();
 	}
 })();
 

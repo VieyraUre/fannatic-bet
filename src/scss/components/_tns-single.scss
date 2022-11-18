@@ -1,8 +1,8 @@
 .tns-single{
-	max-height: 1280px;
-	height: 80vh;
+	// max-height: 1280px;
+	// height: 80vh;
 
-	background-color: #250f12;
+	// background-color: #250f12;
 	
 	& > img:nth-child(odd){
 		background        : red;
@@ -130,6 +130,6 @@
 
 	&__slider {
 		border-radius: 1rem;
-		min-height: 25vh;
+		min-height: 80vh;
 	}
 }

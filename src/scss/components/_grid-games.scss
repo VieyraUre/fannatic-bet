@@ -3,8 +3,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 	// background-color: var(--color-backgroundTwo) ;
-	padding: 62px 0 84px 0;
+	padding: 32px 0 50px 0;
 	margin-bottom: 0;
+	
+	@include from(l) {
+		padding: 62px 0 84px 0;
+
+	}
 	
 	&__container {
 		max-width: 1280px;
@@ -14,6 +19,13 @@
 
 	&__container--h2 {
 		color: var(--color-heading);
+	}
+
+	&__slider {
+		max-width: 400px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -40,16 +52,23 @@
 	}
 	
 	&__content {
+		max-height: 140px;
+		height: 100%;
 		position: absolute;
+		top: 20px;
+		// bottom: 0;
 		left: 35px;
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
+		justify-content: space-between;
 		width: 60%;
-
+		
 		@include from(l) {
 			height: 146px;
 			width: 247px;
+			justify-content: end;
+			top: 56px;
+			// top: 0;
 		}
 	}
 	
@@ -77,6 +96,7 @@
 			color: var(--color-background);
 			text-align: start;
 			text-transform: uppercase;	
+			font-size: 38px;
 			
 			@include from(l) {
 				font-size: 44px;
@@ -87,7 +107,12 @@
 .promotions {
 	background: transparent linear-gradient(90deg, #000000 0%, #5B0F0C 20%, #6A110E 51%, #60100D 79%, #000000 100%) 0% 0% no-repeat padding-box;
 	mix-blend-mode: multiply;
-	padding: 62px 0 84px 0;
+	padding: 32px 0 50px 0;
+	
+	@include from(l) {
+		padding: 62px 0 84px 0;
+
+	}
 	// display: none;
 
 	&__container--h2 {

@@ -80,7 +80,7 @@ img {
 .card1 {
 	@include from(l) {
 		&:hover {
-			background-image: url(../../assets/img/sports_1-1.png);
+			background-image: url(../../assets/img/1_1-bonuses.png);
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -90,7 +90,7 @@ img {
 .card2 {
 	@include from(l) {
 		&:hover {
-			background-image: url(../../assets/img/free_s_1-1.png);
+			background-image: url(../../assets/img/2_2-bonuses.png);
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -100,7 +100,7 @@ img {
 .card3 {
 	@include from(l) {
 		&:hover {
-			background-image: url(../../assets/img/casino_1_1.png);
+			background-image: url(../../assets/img/3_3-bonuses.png);
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -110,7 +110,7 @@ img {
 .card4 {
 	@include from(l) {
 		&:hover {
-			background-image: url(../../assets/img/horse_1_1.png);
+			background-image: url(../../assets/img/4_4-bonuses.png);
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -128,7 +128,7 @@ img {
 }
 
 .block {
-	display: block;
+	// display: block;
 	
 	@include from(l) {
 		display: none;

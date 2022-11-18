@@ -6,10 +6,22 @@ mixin gameCards(img, text, link, textLink)
 			a(href=link class="grid__content--anchore btn btn__secondary")= textLink
 
 section(class="games")
-	div(class="games__container")
+	div(class="games__container display")
 		h2(class="games__container--h2") Enjoy our products
 		div(class=' grid ed-grid s-grid-1 l-grid-3 row-gap l-big-section') 
 			-for(var i = 0; i < games.length ; i++)
 				-var game = games[i]
 				+gameCards(game.img, game.text, game.link, game.textLink)
+
+	div(class="games__slider block")
+		div(class='tns-single' id='tnsSingleGames')
+			-for(var i = 0; i < games.length; i++)
+				div(class="grid__card")
+					img(src=games[i].img alt=games[i].text class="grid__img")
+					div(class="grid__content")
+						h3(class="grid__content--h3")= games[i].text 
+						a(href=games[i].link class="grid__content--anchore btn btn__secondary")= games[i].textLink
+
+
+
 	
