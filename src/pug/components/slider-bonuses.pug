@@ -1,0 +1,7 @@
+div(class='container-slider')
+    div(class='container-slider__slider')
+        div(class='tns-single' id='tnsBonuses')
+            -for(var i = 0; i < sliderBonuses.length; i++)
+                div
+                    div(class='tns-single__image' id=sliderBonuses[i].id)
+                        img(src=sliderBonuses[i].img, alt=sliderBonuses[i].alt)

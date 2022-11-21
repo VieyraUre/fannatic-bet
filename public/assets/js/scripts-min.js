@@ -192,18 +192,10 @@ var tnsSingle = function tnsSingle() {
 		container: '#tnsSingle',
 		items: 1,
 		slideBy: 1,
-		speed: 1000,
-		mode: 'gallery',
-		mouseDrag: true,
-		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
-	});
-};
-
-var tnsSingleMobile = function tnsSingleMobile() {
-	var slider = tns({
-		container: '#tnsSingleMobile',
-		items: 1,
-		slideBy: 1,
+		controls: false,
+		autoplay: true,
+		autoplayHoverPause: true,
+		autoplayButtonOutput: false,
 		speed: 1000,
 		mode: 'gallery',
 		mouseDrag: true,
@@ -217,18 +209,33 @@ var tnsSingleGames = function tnsSingleGames() {
 		items: 1,
 		slideBy: 1,
 		speed: 1000,
+		nav: false,
 		mode: 'gallery',
 		mouseDrag: true,
 		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
 	});
 };
 
-var tnsSinglePromitions = function tnsSinglePromitions() {
+var tnsSinglePromotions = function tnsSinglePromotions() {
 	var slider = tns({
 		container: '#tnsSinglePromitions',
 		items: 1,
 		slideBy: 1,
 		speed: 1000,
+		nav: false,
+		mode: 'gallery',
+		mouseDrag: true,
+		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+	});
+};
+
+var sliderBonuses = function sliderBonuses() {
+	var slider = tns({
+		container: '#tnsBonuses',
+		items: 1,
+		slideBy: 1,
+		speed: 1000,
+		nav: false,
 		mode: 'gallery',
 		mouseDrag: true,
 		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
@@ -237,8 +244,8 @@ var tnsSinglePromitions = function tnsSinglePromitions() {
 
 exports.tnsSingle = tnsSingle;
 exports.tnsSingleGames = tnsSingleGames;
-exports.tnsSinglePromitions = tnsSinglePromitions;
-exports.tnsSingleMobile = tnsSingleMobile;
+exports.tnsSinglePromotions = tnsSinglePromotions;
+exports.sliderBonuses = sliderBonuses;
 
 },{}],7:[function(require,module,exports){
 'use strict';
@@ -294,21 +301,21 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 (function () {
 	(0, _topNav.topNav)();
-	(0, _tnsSlider.tnsSingle)();
-	// tnsSingleMobile();
 	(0, _accordion.initAcc)();
-	(0, _paymentSlider.paymentSlider)();
-	(0, _tnsSlider.tnsSingleGames)();
-	(0, _tnsSlider.tnsSinglePromitions)();
 	if (document.body.classList.contains('home')) {
+		(0, _tnsSlider.tnsSingle)();
+		(0, _paymentSlider.paymentSlider)();
+		(0, _tnsSlider.tnsSingleGames)();
+		(0, _tnsSlider.tnsSinglePromotions)();
 		(0, _promotions.promotions)();
+		(0, _tnsSlider.sliderBonuses)();
 		// functions here
 	} else if (document.body.classList.contains('portfolio')) {
 		// functions here
 		(0, _searchFilter.searchFilter)();
 	} else if (document.body.classList.contains('banking')) {
-		// functions here
 		(0, _tabs2.default)();
+		// functions here
 	}
 })();
 

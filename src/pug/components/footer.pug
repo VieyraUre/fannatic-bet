@@ -35,5 +35,5 @@ div(class='ed-grid m-grid-2 lg-grid-4 row-gap main-footer__content')
 			ul(class="main-footer__connect--list") 
 				-for(var i = 0; i < connect.length ; i++)
 					-var item = connect[i]
-					+connect(item.icon, item.link)
+					+connect(item.icon, item.link, item.alt)
 

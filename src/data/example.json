@@ -1,738 +1,725 @@
 {
-	"list":
-		[
-			{
-				"item"		:"Casino",
-				"link"		:"casino.html"
-			},
-
-			{
-				"item"		:"Sports",
-				"link"		:"sports.html"
-			},
-
-			{
-				"item"		:"Racebook",
-				"link"		:"racebook.html"
-			},
-
-			{
-				"item"		:"Live Betting",
-				"link"		:"live-betting.html"
-			},
-
-			{
-				"item"		:"Bonuses",
-				"link"		:"bonuses.html"
-			},
-
-			{
-				"item"		:"Banking",
-				"link"		:"banking.html"
-			}
-		],
-
-	"casos":
-		[
-			{
-				"img"		: "assets/img/img1.jpg",	
-				"title"		: "Image 1",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img2.jpg",	
-				"title"		: "Image 2",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img3.jpg",	
-				"title"		: "Image 3",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img4.jpg",	
-				"title"		: "Image 4",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img1.jpg",	
-				"title"		: "Image 1",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img2.jpg",	
-				"title"		: "Image 2",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img3.jpg",	
-				"title"		: "Image 3",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img4.jpg",	
-				"title"		: "Image 4",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img1.jpg",	
-				"title"		: "Image 1",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img2.jpg",	
-				"title"		: "Image 2",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img3.jpg",	
-				"title"		: "Image 3",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img4.jpg",	
-				"title"		: "Image 4",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img1.jpg",	
-				"title"		: "Image 1",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img2.jpg",	
-				"title"		: "Image 2",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img3.jpg",	
-				"title"		: "Image 3",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			},
-			{
-				"img"		: "assets/img/img4.jpg",	
-				"title"		: "Image 4",
-				"source"	: "https://jazzsports.ag/",
-				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
-			}
-		],
-
-		"lenguajes": 
-			[
-				{
-					"icon"		:"assets/img/en.png",
-					"text"		:"EN"
-				},
-				{
-					"icon"		:"assets/img/esp.png",
-					"text"		:"ES"
-				}
+	"list": [
+		{
+			"item": "Casino",
+			"link": "casino.html"
+		},
+		{
+			"item": "Sports",
+			"link": "sports.html"
+		},
+		{
+			"item": "Racebook",
+			"link": "racebook.html"
+		},
+		{
+			"item": "Live Betting",
+			"link": "live-betting.html"
+		},
+		{
+			"item": "Bonuses",
+			"link": "bonuses.html"
+		},
+		{
+			"item": "Banking",
+			"link": "banking.html"
+		}
+	],
+	"casos": [
+		{
+			"img": "assets/img/img1.jpg",
+			"title": "Image 1",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img2.jpg",
+			"title": "Image 2",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img3.jpg",
+			"title": "Image 3",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img4.jpg",
+			"title": "Image 4",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img1.jpg",
+			"title": "Image 1",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img2.jpg",
+			"title": "Image 2",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img3.jpg",
+			"title": "Image 3",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img4.jpg",
+			"title": "Image 4",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img1.jpg",
+			"title": "Image 1",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img2.jpg",
+			"title": "Image 2",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img3.jpg",
+			"title": "Image 3",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img4.jpg",
+			"title": "Image 4",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img1.jpg",
+			"title": "Image 1",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img2.jpg",
+			"title": "Image 2",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img3.jpg",
+			"title": "Image 3",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		},
+		{
+			"img": "assets/img/img4.jpg",
+			"title": "Image 4",
+			"source": "https://jazzsports.ag/",
+			"live": "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+		}
+	],
+	"lenguajes": [
+		{
+			"icon": "assets/img/en.png",
+			"text": "EN"
+		},
+		{
+			"icon": "assets/img/esp.png",
+			"text": "ES"
+		}
+	],
+	"slider": [
+		{
+			"image": "assets/img",
+			"alt": "jsjsjs",
+			"field": [
+				"100%",
+				"welcome",
+				"sports",
+				"bonus"
 			],
-
-		"slider":
-			[
-				{
-					"image"		:"assets/img",
-					"alt"		:"jsjsjs",
-					"field"		: [
-						"100%", 
-						"welcome", 
-						"sports", 
-						"bonus"
-					],
-					"link"		: "hdwqhd",
-					"linkText"	: "join now"
-						
-				},
-				
-				{
-					"image"		:"assets/img",
-					"alt"		:"jsjsjsj",
-					"field"		: [
-						"100%", 
-						"welcome", 
-						"casino", 
-						"bonus"
-					],
-						
-					"link"		: "hdwqhd",
-					"linkText"	: "join now"
-						
-					
-				},
-
-				{
-					"image"		:"assets/img",
-					"alt"		:"jsjsjsj",
-					"field"		: [
-						"8",
-						"daily",
-						"horse",
-						"rebate"
-					],
-
-					"link"		: "hdwqhd",
-					"linkText"	: "join now"
-					
-				}
-
+			"link": "hdwqhd",
+			"linkText": "join now"
+		},
+		{
+			"image": "assets/img",
+			"alt": "jsjsjsj",
+			"field": [
+				"100%",
+				"welcome",
+				"casino",
+				"bonus"
 			],
-
-		"currencies":
-			[
-				{
-					"currency"		:"EUR"
-				},
-				{
-					"currency"		:"ARG"
-				},
-				{
-					"currency"		:"MXN"
-				},
-				{
-					"currency"		:"USD"
-				}
+			"link": "hdwqhd",
+			"linkText": "join now"
+		},
+		{
+			"image": "assets/img",
+			"alt": "jsjsjsj",
+			"field": [
+				"8",
+				"daily",
+				"horse",
+				"rebate"
 			],
+			"link": "hdwqhd",
+			"linkText": "join now"
+		}
+	],
+	"currencies": [
+		{
+			"currency": "EUR"
+		},
+		{
+			"currency": "ARG"
+		},
+		{
+			"currency": "MXN"
+		},
+		{
+			"currency": "USD"
+		}
+	],
+	"contries": [
+		{
+			"contry": "Costa Rica"
+		},
+		{
+			"contry": "Belize"
+		},
+		{
+			"contry": "Venezuela"
+		}
+	],
+	"games": [
+		{
+			"img": "assets/img/sports.png",
+			"text": "sports",
+			"link": "/juegos-vivo",
+			"textLink": "join now"
+		},
+		{
+			"img": "assets/img/casino.png",
+			"text": "casino",
+			"link": "/juegos-vivo",
+			"textLink": "join now"
+		},
+		{
+			"img": "assets/img/live_c.png",
+			"text": "live casino",
+			"link": "/juegos-vivo",
+			"textLink": "join now"
+		},
+		{
+			"img": "assets/img/racebook.png",
+			"text": "racebook",
+			"link": "/juegos-vivo",
+			"textLink": "join now"
+		},
+		{
+			"img": "assets/img/wagerin.png",
+			"text": "live wagerin",
+			"link": "/juegos-vivo",
+			"textLink": "join now"
+		},
+		{
+			"img": "assets/img/props.png",
+			"text": "props buider",
+			"link": "/juegos-vivo",
+			"textLink": "join now"
+		}
+	],
+	"promotions": [
+		{
+			"id": "card1",
+			"img": "assets/img/1_bonuses.png",
+			"imgMobile": "assets/img/1_moibile-bonuses.png",
+			"alt": "50% sports welcome bonus",
+			"link": "#",
+			"textLink": "initial deposit only"
+		},
+		{
+			"id": "card2",
+			"img": "assets/img/2_bonuses.png",
+			"imgMobile": "assets/img/2_moibile-bonuses.png",
+			"alt": "25 free spins",
+			"link": "/juegos-vivo",
+			"textLink": "initial deposit only"
+		},
+		{
+			"id": "card3",
+			"img": "assets/img/3_bonuses.png",
+			"imgMobile": "assets/img/3_moibile-bonuses.png",
+			"alt": "50% casino reload",
+			"link": "/juegos-vivo",
+			"textLink": "reload deposit"
+		},
+		{
+			"id": "card4",
+			"img": "assets/img/4_bonuses.png",
+			"alt": "up to 8% daily horse rebate",
+			"imgMobile": "assets/img/4_moibile-bonuses.png",
+			"link": "/juegos-vivo",
+			"textLink": ""
+		}
+	],
+	"promotionsMobile": [
+		{
+			"id": "card1",
+			"img": "assets/img/1_moibile-bonuses.png",
+			"alt": "50% sports welcome bonus",
+			"link": "#",
+			"textLink": "initial deposit only"
+		},
+		{
+			"id": "card2",
+			"img": "assets/img/2_moibile-bonuses.png",
+			"alt": "25 free spins",
+			"link": "/juegos-vivo",
+			"textLink": "initial deposit only"
+		},
+		{
+			"id": "card3",
+			"img": "assets/img/3_moibile-bonuses.png",
+			"alt": "50% casino reload",
+			"link": "/juegos-vivo",
+			"textLink": "reload deposit"
+		},
+		{
+			"id": "card4",
+			"img": "assets/img/4_moibile-bonuses.png",
+			"alt": "up to 8% daily horse rebate",
+			"link": "/juegos-vivo",
+			"textLink": ""
+		}
+	],
+	"carrusel": [
+		{
+			"img": "assets/img/visa.svg"
+		},
+		{
+			"img": "assets/img/l8.svg"
+		}
+	],
+	"column1": [
+		{
+			"item": "Online sportsbook",
+			"link": "sports.html"
+		},
+		{
+			"item": "Online Casino",
+			"link": "casino.html"
+		},
+		{
+			"item": "Online racebook",
+			"link": "racebook.html"
+		},
+		{
+			"item": "sign me up",
+			"link": "ejkjfewjfw"
+		},
+		{
+			"item": "About us",
+			"link": "signUp.html"
+		}
+	],
+	"column2": [
+		{
+			"item": "Banking Options",
+			"link": "banking.html"
+		},
+		{
+			"item": "Bonuses & promotions",
+			"link": "bonuses.html"
+		},
+		{
+			"item": "sportsbook agent admin",
+			"link": "login.html"
+		}
+	],
+	"column3": [
+		{
+			"item": "House Rules",
+			"link": "rules.html"
+		},
+		{
+			"item": "Sports Rules",
+			"link": "rules.html"
+		},
+		{
+			"item": "Casino rules",
+			"link": "rules.html"
+		}
+	],
+	"connect": [
+		{
+			"icon": "assets/img/1_icon.svg",
+			"link": "ejkjfewjfw",
+			"alt": "Instagram"
+		},
+		{
+			"icon": "assets/img/4_icon.svg",
+			"link": "ejkjfewjfw",
+			"alt": "facebook"
+		},
+		{
+			"icon": "assets/img/5_icon.svg",
+			"link": "ejkjfewjfw",
+			"alt": "l8"
+		}
+	],
+	"connectHamburguer": [
+		{
+			"icon": "assets/img/ig.svg",
+			"link": "ejkjfewjfw",
+			"alt": "Instagram"
+		},
+		{
+			"icon": "assets/img/9_icon.svg",
+			"link": "ejkjfewjfw",
+			"alt": "facebook"
+		},
+		{
+			"icon": "assets/img/l8_icon.svg",
+			"link": "ejkjfewjfw",
+			"alt": "l8"
+		}
+	],
+	"slides": [
+		{
+			"field1": "100%",
+			"field2": "welcome",
+			"field3": "sports",
+			"field4": "bonus",
+			"field5": "",
+			"link": "hdwqhd",
+			"linkText": "join now",
+			"image": "assets/img/3_background_fanattic.jpg",
+			"imageMobile": "assets/img/1_slider-mobile.png",
+			"alt": "100% welcome sports bonus"
+		},
+		{
+			"field1": "100%",
+			"field2": "welcome",
+			"field3": "casino",
+			"field4": "bonus",
+			"field5": "",
+			"link": "hdwqhd",
+			"linkText": "join now",
+			"image": "assets/img/2_background_fanattic.jpg",
+			"imageMobile": "assets/img/2_slider-mobile.png",
+			"alt": "100% welcome casino bonus"
+		},
+		{
+			"field0": "up to",
+			"field1": "8%",
+			"field2": "dayly",
+			"field3": "horse",
+			"field4": "rebate",
+			"link": "hdwqhd",
+			"linkText": "join now",
+			"image": "assets/img/1_background_fanattic.jpg",
+			"imageMobile": "assets/img/3_slider-mobile.png",
+			"alt": "up to 8% dayly horse"
+		}
+	],
+	"slidesMobile": [
+		{
+			"field1": "100%",
+			"field2": "welcome",
+			"field3": "sports",
+			"field4": "bonus",
+			"field5": "",
+			"link": "hdwqhd",
+			"linkText": "join now",
+			"imageMobile": "assets/img/1_slider-mobile.png",
+			"alt": "jsjsjs"
+		},
+		{
+			"field1": "100%",
+			"field2": "welcome",
+			"field3": "casino",
+			"field4": "bonus",
+			"field5": "",
+			"link": "hdwqhd",
+			"linkText": "join now",
+			"imageMobile": "assets/img/2_slider-mobile.png",
+			"alt": "jsjsjs"
+		},
+		{
+			"field0": "up to",
+			"field1": "8%",
+			"field2": "dayly",
+			"field3": "horse",
+			"field4": "rebate",
+			"link": "hdwqhd",
+			"linkText": "join now",
+			"imageMobile": "assets/img/3_slider-mobile.png",
+			"alt": "jsjsjs"
+		}
+	],
+	"bets": [
+		{
+			"td1": "Pro Football",
+			"td2": "55 minutes of play"
+		},
+		{
+			"td1": "College Football",
+			"td2": "55 minutes of play"
+		},
+		{
+			"td1": "Basketball",
+			"td2": "55 minutes of play"
+		},
+		{
+			"td1": "Pro Basketball",
+			"td2": "43 minutes of play"
+		},
+		{
+			"td1": "College Basketball",
+			"td2": "35 minutes of play"
+		},
+		{
+			"td1": "Hockey",
+			"td2": "55 minutos de juego"
+		},
+		{
+			"td1": "Baseball Sides",
+			"td2": "5 innings (8 1/2 if the home team is winning)"
+		},
+		{
+			"td1": "Baseball Totals",
+			"td2": "9 innings (8 1/2 if the home team is winning)"
+		},
+		{
+			"td1": "Run Lines",
+			"td2": "9 innings (8 1/2 if the home team is winning)"
+		},
+		{
+			"td1": "Tennis",
+			"td2": "One ball served"
+		},
+		{
+			"td1": "Soccer",
+			"td2": "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
+		}
+	],
+	"casinos": [
+		{
+			"img": "assets/img/live.png",
+			"alt": "Live Games",
+			"title": "Live Games",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/table.png",
+			"alt": "Table Games",
+			"title": "Table Games",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/slots.png",
+			"alt": "Slots",
+			"title": "Slots",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/3d-slots.png",
+			"alt": "3D Slots",
+			"title": "3D Slots",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/video-poker.png",
+			"alt": "Video Poker",
+			"title": "Video Poker",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/virtual-sports.png",
+			"alt": "Virtual Sports",
+			"title": "Virtual Sports",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/bingo.png",
+			"alt": "Bingo",
+			"title": "Bingo",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/keno.png",
+			"alt": "Keno",
+			"title": "Keno",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/scratch-card.png",
+			"alt": "Scratch Cards",
+			"title": "Scratch Cards",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/fixed-odds.png",
+			"alt": "Fixed Odds",
+			"title": "Fixed Odds",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/other-game.png",
+			"alt": "Other Games",
+			"title": "Other Games",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		},
+		{
+			"img": "assets/img/blackjack.png",
+			"alt": "Blackjack",
+			"title": "Blackjack",
+			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+		}
+	],
+	"providers": [
+		{
+			"img": "assets/img/pragmatic_play.png",
+			"alt": "pragmatic play"
+		},
+		{
+			"img": "assets/img/slot-exchange.png",
+			"alt": "slotexchange"
+		},
+		{
+			"img": "assets/img/betsoft.png",
+			"alt": "betsoft"
+		},
+		{
+			"img": "assets/img/conceptgaming.png",
+			"alt": "conceptgaming"
+		},
+		{
+			"img": "assets/img/platinum.png",
+			"alt": "platinum"
+		},
+		{
+			"img": "assets/img/tomhorn.png",
+			"alt": "tomhorn"
+		},
+		{
+			"img": "assets/img/ezugi.png",
+			"alt": "ezugi"
+		}
+	],
+	"methods": [
+		{
+			"img": "assets/img/bitcoin-cash-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/visa-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/zelle-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/mastercard-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/ethereum-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/litecoin-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/p2p-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/bitcoin-icon.png",
+			"alt": "bitcoin cash"
+		},
+		{
+			"img": "assets/img/usdt-icon.png",
+			"alt": "bitcoin cash"
+		}
+	],
 
-		"contries":
-			[
-				{
-					"contry"		:"Costa Rica"
-				},
-				{
-					"contry"		:"Belize"
-				},
-				{
-					"contry"		:"Venezuela"
-				}
-			],
+	"bankingDeposit": [
+		{
+			"img": "assets/img/1-banking_all.png",
+			"alt": "",
+			"link": "/",
+			"textLink": "Deposit Now"
+		},
 
-		"games": 
-			[
-				{
-					"img"			:"assets/img/sports.png",
-					"text"			:"sports",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"join now"
+		{
+			"img": "assets/img/2-banking_p2p.png",
+			"alt": "",
+			"link": "/",
+			"textLink": "Deposit Now"
+		},
 
-					
-				},
-				{
-					"img"			:"assets/img/casino.png",
-					"text"			:"casino",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"join now"
-					
-				},
-				{
-					"img"			:"assets/img/live_c.png",
-					"text"			:"live casino",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"join now"
-					
-				},
-				{
-					"img"			:"assets/img/racebook.png",
-					"text"			:"racebook",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"join now"
-					
-				},
-				{
-					"img"			:"assets/img/wagerin.png",
-					"text"			:"live wagerin",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"join now"
-					
-				},
-				{
-					"img"			:"assets/img/props.png",
-					"text"			:"props buider",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"join now"
-					
-				}
-			],
+		{
+			"img": "assets/img/3-banking_visa_p2p.png",
+			"alt": "",
+			"link": "/",
+			"textLink": "Deposit Now"
+		}
+	],
+	"bankingWithdraw": [
+		{
+			"img": "assets/img/1-banking_all.png",
+			"alt": "",
+			"link": "/",
+			"textLink": "Withdraw Now"
+		},
 
-			"promotions": [
-				{
-					"id"			:"card1",
-					"img"			:"assets/img/1_bonuses.png",
-					"alt"			:"50% sports welcome bonus",
-					"link"			:"#",
-					"textLink"		:"initial deposit only"
-					
-				},
-				{
-					"id"			:"card2",
-					"img"			:"assets/img/2_bonuses.png",
-					"alt"			:"25 free spins",
-					"link"			:"/juegos-vivo",
-					"textLink"		:"initial deposit only"
-					
-				},
-				{
-					"id"			:"card3",
-					"img"			:"assets/img/3_bonuses.png",
-					"alt"			:"50% casino reload",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"reload deposit"
-					
-				},
-				{
-					"id"			:"card4",
-					"img"			:"assets/img/4_bonuses.png",
-					"alt"			:"up to 8% daily horse rebate",
-					"link"			:"/juegos-vivo",
-					"textLink"			:""
-					
-				}
-				
-			],
-			
-			"promotionsMobile": [
-				{
-					"id"			:"card1",
-					"img"			:"assets/img/1_moibile-bonuses.png",
-					"alt"			:"50% sports welcome bonus",
-					"link"			:"#",
-					"textLink"		:"initial deposit only"
-					
-				},
-				{
-					"id"			:"card2",
-					"img"			:"assets/img/2_moibile-bonuses.png",
-					"alt"			:"25 free spins",
-					"link"			:"/juegos-vivo",
-					"textLink"		:"initial deposit only"
-					
-				},
-				{
-					"id"			:"card3",
-					"img"			:"assets/img/3_moibile-bonuses.png",
-					"alt"			:"50% casino reload",
-					"link"			:"/juegos-vivo",
-					"textLink"			:"reload deposit"
-					
-				},
-				{
-					"id"			:"card4",
-					"img"			:"assets/img/4_moibile-bonuses.png",
-					"alt"			:"up to 8% daily horse rebate",
-					"link"			:"/juegos-vivo",
-					"textLink"			:""
-					
-				}
-				
-			],
+		{
+			"img": "assets/img/2-banking_p2p.png",
+			"alt": "",
+			"link": "/",
+			"textLink": "Withdraw Now"
+		}
+	],
+	"sliderBonuses": [
+		{
+			"img":	"assets/img/1_sport_bonus.png",
+			"alt":	"25% welcome Bonus. Promocode Fan25",
+			"id":	"00"
+		},
+		{
+			"img":	"assets/img/2_casino_bonus.png",
+			"alt":	"25% welcome Bonus. Promocode Fan25",
+			"id":	"1"
+		},
+		{
+			"img":	"assets/img/3_casino_bonus.png",
+			"alt":	"25% welcome Bonus. Promocode Fan25",
+			"id":	"2"
+		},
+		{
+			"img":	"assets/img/4_free_spins.png",
+			"alt":	"25% welcome Bonus. Promocode Fan25",
+			"id":	"3"
+		},
 
-			"carrusel": [
-				{
-					"img"			: "assets/img/visa.svg"
-				},
-				{
-					"img"			: "assets/img/l8.svg"
-				}
-			],
-
-			"column1": [
-				{
-					"item"			:"Online sportsbook",
-					"link"			:"sports.html"
-				},
-
-				{
-					"item"			:"Online Casino",
-					"link"			:"casino.html"
-				},
-
-				{
-					"item"			:"Online racebook",
-					"link"			:"racebook.html"
-				},
-
-				{
-					"item"			:"sign me up",
-					"link"			:"ejkjfewjfw"
-				},
-
-				{
-					"item"			:"About us",
-					"link"			:"signUp.html"
-				}
-			],
-
-			"column2": [
-				{
-					"item"			:"Banking Options",
-					"link"			:"banking.html"
-				},
-
-				{
-					"item"			:"Bonuses & promotions",
-					"link"			:"bonuses.html"
-				},
-
-				{
-					"item"			:"sportsbook agent admin",
-					"link"			:"login.html"
-				}
-			],
-
-			"column3": [
-				{
-					"item"			:"House Rules",
-					"link"			:"rules.html"
-				},
-
-				{
-					"item"			:"Sports Rules",
-					"link"			:"rules.html"
-				},
-
-				{
-					"item"			:"Casino rules",
-					"link"			:"rules.html"
-				}
-			],
-
-			"connect": [
-				{
-					"icon"			:"assets/img/1_icon.svg",
-					"link"			:"ejkjfewjfw",
-					"alt"			:"Instagram"
-				},
-				{
-					"icon"			:"assets/img/4_icon.svg",
-					"link"			:"ejkjfewjfw",
-					"alt"			:"facebook"
-				},
-				{
-					"icon"			:"assets/img/5_icon.svg",
-					"link"			:"ejkjfewjfw",
-					"alt"			:"l8"
-				}
-
-			],
-
-			"connectHamburguer": [
-				{
-					"icon"			:"assets/img/ig.svg",
-					"link"			:"ejkjfewjfw",
-					"alt"			:"Instagram"
-				},
-				{
-					"icon"			:"assets/img/9_icon.svg",
-					"link"			:"ejkjfewjfw",
-					"alt"			:"facebook"
-				},
-				{
-					"icon"			:"assets/img/l8_icon.svg",
-					"link"			:"ejkjfewjfw",
-					"alt"			:"l8"
-				}
-
-			],
-
-			"slides": [
-				{
-					"field1"	:"100%",
-					"field2"	:"welcome",
-					"field3"	:"sports",
-					"field4"	:"bonus",
-					"field5"	:"",
-					"link"		: "hdwqhd",
-					"linkText"	: "join now",
-					"image"		:"assets/img/3_background_fanattic.jpg",
-					"alt"		:"jsjsjs"
-						
-				},
-
-				{
-					"field1"	:"100%",
-					"field2"	:"welcome",
-					"field3"	:"casino",
-					"field4"	:"bonus",
-					"field5"	:"",
-					"link"		: "hdwqhd",
-					"linkText"	: "join now",
-					"image"		:"assets/img/2_background_fanattic.jpg",
-					"alt"		:"jsjsjs"
-						
-				},
-
-				{
-					"field0"	:"up to",
-					"field1"	:"8%",
-					"field2"	:"dayly",
-					"field3"	:"horse",
-					"field4"	:"rebate",
-					"link"		: "hdwqhd",
-					"linkText"	: "join now",
-					"image"		:"assets/img/1_background_fanattic.jpg",
-					"alt"		:"jsjsjs"
-						
-				}
-				
-			],
-
-			"slidesMobile": [
-				{
-					"field1"	:"100%",
-					"field2"	:"welcome",
-					"field3"	:"sports",
-					"field4"	:"bonus",
-					"field5"	:"",
-					"link"		: "hdwqhd",
-					"linkText"	: "join now",
-					"image"		:"assets/img/1_slider-mobile.png",
-					"alt"		:"jsjsjs"
-						
-				},
-
-				{
-					"field1"	:"100%",
-					"field2"	:"welcome",
-					"field3"	:"casino",
-					"field4"	:"bonus",
-					"field5"	:"",
-					"link"		: "hdwqhd",
-					"linkText"	: "join now",
-					"image"		:"assets/img/2_slider-mobile.png",
-					"alt"		:"jsjsjs"
-						
-				},
-
-				{
-					"field0"	:"up to",
-					"field1"	:"8%",
-					"field2"	:"dayly",
-					"field3"	:"horse",
-					"field4"	:"rebate",
-					"link"		: "hdwqhd",
-					"linkText"	: "join now",
-					"image"		:"assets/img/3_slider-mobile.png",
-					"alt"		:"jsjsjs"
-						
-				}
-				
-			],
-
-			"bets" : 
-[
-				{
-					"td1" : "Pro Football",
-					"td2" : "55 minutes of play"
-				},
-				{
-					"td1" : "College Football",
-					"td2" : "55 minutes of play"
-				},
-				{
-					"td1" : "Basketball",
-					"td2" : "55 minutes of play"
-				},
-				{
-					"td1" : "Pro Basketball",
-					"td2" : "43 minutes of play"
-				},
-				{
-					"td1" : "College Basketball",
-					"td2" : "35 minutes of play"
-				},
-				{
-					"td1" : "Hockey",
-					"td2" : "55 minutos de juego"
-				},
-				{
-					"td1" : "Baseball Sides",
-					"td2" : "5 innings (8 1/2 if the home team is winning)"
-				},
-				{
-					"td1" : "Baseball Totals",
-					"td2" : "9 innings (8 1/2 if the home team is winning)"
-				},
-				{
-					"td1" : "Run Lines",
-					"td2" : "9 innings (8 1/2 if the home team is winning)"
-				},
-				{
-					"td1" : "Tennis",
-					"td2" : "One ball served"
-				},
-				{
-					"td1" : "Soccer",
-					"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
-				}
-			],
-
-		"casinos": [
-			{
-				"img"	:"assets/img/live.png",
-				"alt"	:"alt",
-				"title"	:"Live Games",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/table.png",
-				"alt"	:"alt",
-				"title"	:"Table Games",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/slots.png",
-				"alt"	:"alt",
-				"title"	:"Slots",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/3d-slots.png",
-				"alt"	:"alt",
-				"title"	:"3D Slots",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/video-poker.png",
-				"alt"	:"alt",
-				"title"	:"Video Poker",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/virtual-sports.png",
-				"alt"	:"alt",
-				"title"	:"Virtual Sports",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/bingo.png",
-				"alt"	:"alt",
-				"title"	:"Bingo",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/keno.png",
-				"alt"	:"alt",
-				"title"	:"Keno",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/scratch-card.png",
-				"alt"	:"alt",
-				"title"	:"Scratch Cards",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/fixed-odds.png",
-				"alt"	:"alt",
-				"title"	:"Fixed Odds",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/other-game.png",
-				"alt"	:"alt",
-				"title"	:"Other Games",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			},
-			{
-				"img"	:"assets/img/blackjack.png",
-				"alt"	:"alt",
-				"title"	:"Blackjack",
-				"link"	:"https://betslip.fanattic.bet/juegos-mesa/"
-			}
-		],
-
-		
-		"providers": [
-			{
-				"img"	:"assets/img/pragmatic_play.png",
-				"alt"	:"alt"
-			},
-			
-			{
-				"img"	:"assets/img/slot-exchange.png",
-				"alt"	:"alt"
-			},
-			
-			{
-				"img"	:"assets/img/betsoft.png",
-				"alt"	:"alt"
-			},
-			
-			{
-				"img"	:"assets/img/conceptgaming.png",
-				"alt"	:"alt"
-			},
-			
-			{
-				"img"	:"assets/img/platinum.png",
-				"alt"	:"alt"
-			},
-			{
-				"img"	:"assets/img/tomhorn.png",
-				"alt"	:"alt"
-			},
-
-			{
-				"img"	:"assets/img/ezugi.png",
-				"alt"	:"alt"
-			}
-			
-		],
-
-		"methods"	:
-		[
-			{
-				"img"	: "assets/img/bitcoin-cash-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/visa-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/zelle-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/mastercard-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/ethereum-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/litecoin-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/p2p-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/bitcoin-icon.png",
-				"alt"	: "bitcoin cash"
-			},
-			{
-				"img"	: "assets/img/usdt-icon.png",
-				"alt"	: "bitcoin cash"
-			}
-		]
-
-
+		{
+			"img":	"assets/img/5_sports_bonus.png",
+			"alt":	"25% welcome Bonus. Promocode Fan25",
+			"id":	"4"
+		},
+		{
+			"img":	"assets/img/6_sports_bonus.png",
+			"alt":	"25% welcome Bonus. Promocode Fan25",
+			"id":	"5"
+		}
+	]
 }

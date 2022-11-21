@@ -38,21 +38,24 @@ mixin card(image, alt, field)
 //- 					+card(slider[i].slider)
 
 
-div(class='container')
-	div(class='container__slider')
-		div(class='tns-single display' id='tnsSingle')
+div(class='container-slider')
+	div(class='container-slider__slider')
+		div(class='tns-single' id='tnsSingle')
 			-for(var i = 0; i < slides.length; i++)
 				if(slides)
 					div
-						div(class='tns-single__image'): img(src=slides[i].image alt=slides[i].alt class='tns-single__image--img' )
+						div(class='tns-single__image')
+							picture(class='tns-single__image--picture')
+								source(media="(min-width: 959px)", srcset=slides[i].image, class='tns-single__image--source')
+								img(src=slides[i].imageMobile alt=slides[i].alt class='tns-single__image--img' )
 						div(class="tns-single__content")
 							div(class="tns-single__content--div")
 								p(class="tns-single__content--unique")= slides[i].field0
-								p(class="tns-single__content--big")= slides[i].field1
-							p(class="tns-single__content--medium")= slides[i].field2
+								h1(class="tns-single__content--big")= slides[i].field1
+							h2(class="tns-single__content--medium")= slides[i].field2
 							div(class="tns-single__content--div tns-single__content--small")
-								p(class="tns-single__content--red")= slides[i].field3
-								p=slides[i].field4
+								h2(class="tns-single__content--red")= slides[i].field3
+								h2=slides[i].field4
 							a(href=slides[i].link class="tns-single__content--anchore btn btn__primary")= slides[i].linkText
 		//- div(class='container__slider')
 		//- 	div(class='tns-single' id='tnsSingleMobile')
@@ -69,4 +72,3 @@ div(class='container')
 		//- 							p(class="tns-single__content--red")= slidesMobile[i].field3
 		//- 							p=slidesMobile[i].field4
 		//- 						a(href=slidesMobile[i].link class="tns-single__content--anchore btn btn__primary")= slidesMobile[i].linkText
-

@@ -3,21 +3,10 @@ const tnsSingle = ()=> {
 		container           : '#tnsSingle',
 		items               : 1, 
 		slideBy             : 1,
-		speed               : 1000,
-		mode                : 'gallery',
-		mouseDrag           : true,
-		controlsText: [ 
-			'<i class="fas fa-chevron-left"></i>',
-			'<i class="fas fa-chevron-right"></i>'
-			]
-		}); 
-};
-
-const tnsSingleMobile = ()=> {
-	const slider = tns({ 
-		container           : '#tnsSingleMobile',
-		items               : 1, 
-		slideBy             : 1,
+		controls 			: false,
+		autoplay			: true,
+		autoplayHoverPause	: true,
+		autoplayButtonOutput: false,
 		speed               : 1000,
 		mode                : 'gallery',
 		mouseDrag           : true,
@@ -34,6 +23,7 @@ const tnsSingleGames = ()=> {
 		items               : 1, 
 		slideBy             : 1,
 		speed               : 1000,
+		nav					: false,
 		mode                : 'gallery',
 		mouseDrag           : true,
 		controlsText: [ 
@@ -43,12 +33,29 @@ const tnsSingleGames = ()=> {
 		}); 
 };
 
-const tnsSinglePromitions = ()=> {
+const tnsSinglePromotions = ()=> {
 	const slider = tns({ 
 		container           : '#tnsSinglePromitions',
 		items               : 1, 
 		slideBy             : 1,
 		speed               : 1000,
+		nav					: false,
+		mode                : 'gallery',
+		mouseDrag           : true,
+		controlsText: [ 
+			'<i class="fas fa-chevron-left"></i>',
+			'<i class="fas fa-chevron-right"></i>'
+			]
+		}); 
+};
+
+const sliderBonuses = ()=> {
+	const slider = tns({ 
+		container           : '#tnsBonuses',
+		items               : 1, 
+		slideBy             : 1,
+		speed               : 1000,
+		nav					: false,
 		mode                : 'gallery',
 		mouseDrag           : true,
 		controlsText: [ 
@@ -61,6 +68,6 @@ const tnsSinglePromitions = ()=> {
 export {
 	tnsSingle,
 	tnsSingleGames,
-	tnsSinglePromitions,
-	tnsSingleMobile
+	tnsSinglePromotions,
+	sliderBonuses
 }

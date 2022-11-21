@@ -24,7 +24,7 @@ nav(class='top-nav')
 				ul(class="top-nav__connect--list") 
 					-for(var i = 0; i < connectHamburguer.length ; i++)
 						-var item = connectHamburguer[i]
-						+connect(item.icon, item.link)
+						+connect(item.icon, item.link, item.alt)
 
 		//- div(class='dropdown') 
 		//- 	button(class='dropdown__button') 

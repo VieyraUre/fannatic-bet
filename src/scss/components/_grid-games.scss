@@ -5,10 +5,15 @@
 	// background-color: var(--color-backgroundTwo) ;
 	padding: 32px 0 50px 0;
 	margin-bottom: 0;
-	
+
 	@include from(l) {
 		padding: 62px 0 84px 0;
 
+	}
+
+	&__wrapper {
+		max-width: 1280px;
+		width: 90%;
 	}
 	
 	&__container {
@@ -52,29 +57,39 @@
 	}
 	
 	&__content {
-		max-height: 140px;
+		max-height: 200px;
 		height: 100%;
 		position: absolute;
-		top: 20px;
+		top: 0px;
 		// bottom: 0;
-		left: 35px;
+		left: 40px;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		gap: 6px;
+		max-width: 300px;
+		justify-content: end;
+		padding: 24px 0 24px 0;
+		align-content: center;
 		width: 60%;
 		
 		@include from(l) {
-			height: 146px;
-			width: 247px;
 			justify-content: end;
-			top: 56px;
+			height: 120px;
+			padding: 90px 0 24px 0;
+			left: 35px;
+			top: 80px;
+			width: 220px;
 			// top: 0;
 		}
+		
+		@include from(xl) {
+			justify-content: end;
+			height: 144px;
+			left: 35px;
+			top: 100px;
+			width: 240px;
+		}
 	}
-	
-	// &__anchore {
-		// 	text-decoration: none;
-		// }
 		
 		&__img {
 			border-radius: 1rem;
@@ -89,7 +104,6 @@
 		&__p {
 			color: var(--color-body);
 			font-weight: 600;
-			
 		}
 		
 		&__content--h3 {
@@ -99,6 +113,10 @@
 			font-size: 38px;
 			
 			@include from(l) {
+				font-size: 40px;
+			}
+
+			@include from(xl) {
 				font-size: 44px;
 			}
 		}
@@ -126,12 +144,34 @@
 		// 	box-shadow: inset 0px 0px 26px var(--color-third);
 		// }	
 	}
-	
-	&__box--anchore {
-		display: block;
-		border-radius: 1rem;
+
+	&__grid--content {
+		max-height: 200px;
+		height: 100%;
+		position: absolute;
+		bottom: -16px;
+		left: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+		padding: 32px 0 24px 0;
+		max-width: 300px;
+		width: 60%;
+
+		@include from(l) {
+			
+		}
 		
-		width: 100%;
+		@include from(xl) {
+
+		}
 	}
+	
+	// &__box--anchore {
+	// 	display: block;
+	// 	border-radius: 1rem;
+		
+	// 	width: 100%;
+	// }
 	
 }

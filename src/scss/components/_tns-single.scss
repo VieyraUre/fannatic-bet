@@ -1,15 +1,4 @@
 .tns-single{
-	// max-height: 1280px;
-	// height: 80vh;
-
-	// background-color: #250f12;
-	
-	& > img:nth-child(odd){
-		background        : red;
-	}
-	& > img:nth-child(even){
-		background        :green;
-	}
 
 	@include from(l) {
 		height: auto;
@@ -19,10 +8,10 @@
 		display: flex;
 		flex-direction    : column;
 		justify-content   : flex-start;
-		// min-height: 50vh;
 		max-width: 1280px;
-		width: 90%;
-		height: 70vh;
+		width: 100%;
+		min-height: 560px;
+		height: 80%;
 		position: absolute;
 		top: 0px;
 		right: 0;
@@ -30,15 +19,20 @@
 		margin-left: auto;
 		margin-right: auto;
 		color: white;
-		// border: 2px solid white;
 		align-items: center;
 		
+		// @include from(m) {
+		// 	min-height: 400px;
+		// 	height: 100%;
+			
+		// }
+		
 		@include from(l) {
-			// justify-content   : flex-start;
 			align-items: flex-start;
 			top: 10px;
+			height: 100px;
+			width: 90%;
 		}
-		/*span{color        : white;}*/
 	}
 
 	&__content--div {
@@ -65,7 +59,6 @@
 	
 	&__content--medium {
 		margin-bottom: 0;
-		font-weight: bolder;
 		text-transform: uppercase;
 		font-size: 57px;
 
@@ -77,7 +70,7 @@
 	
 	&__content--small {
 		margin-bottom: 0;
-		font-weight: bolder;
+		font-weight: 800;
 		text-transform: uppercase;
 		font-size: 42px;
 
@@ -92,44 +85,47 @@
 		margin-right: 1rem;
 	}
 	
-	&__img {
-		// border-radius: 0.5rem;
-		min-height: 50vh;
+	&__image {
 		width: 100%;
+		max-height: 550px;
 		height: 100%;
-		// background-color: black;
-		
-		@include from(l) {
-			height: 547px;
-		}
 	}
 
-	// &__content--cta {
-	// 	position: absolute;
-	// 	top: 103px;
-	// 	left: 0;
-	// 	right: 0;
-	// 	color: var(--color-background);
-	// 	max-width: 1280px;
-	// 	width: 90%;
-	// 	margin: auto;
-	// 	// display: none;
-	// }
-
+	&__image--img {
+		height: 82.8vh;
+		@include from(l) {
+			height: 500px;
+		}
+	}
+	
 }
 
-.container {
+.container-slider {
 	width: 100%;
 	margin: 0px auto;
-	max-height: 550px;
-	height: 100%;
-	// position: relative;
-	// background-image: url(../../assets/img/1_background_fanattic.jpg);
-	// background-repeat: no-repeat;
-	// background-size: cover;
+	height: 82.8vh;
+	// border: 2px solid green;
 
+	@include from(l) {
+		height: 500px;
+	}
+	
 	&__slider {
 		border-radius: 1rem;
-		min-height: 80vh;
+		min-height: 550px;
+		// min-height: 80vh;
+		height: 100%;
+
+		#tnsSingle-ow {
+			height: 80vh;
+
+			@include from(l) {
+				height: auto;
+			}
+
+			// .tns-controls {
+			// 	display: none;
+			// }
+		}
 	}
 }
