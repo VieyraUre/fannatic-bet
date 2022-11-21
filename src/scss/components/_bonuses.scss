@@ -1,0 +1,35 @@
+.bonuses-background {
+	background: transparent linear-gradient(90deg, #000000 0%, #5B0F0C 20%, #6A110E 51%, #60100D 79%, #000000 100%) 0% 0% no-repeat padding-box;
+	margin-bottom: 0px;
+}
+.container-bonuses {
+	max-width: 1280px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	color: var(--color-background);
+	padding: 25px 0;
+	display: flex;
+	flex-direction: column;
+	
+	@include from(l) {
+		flex-direction: row;
+		gap: 3rem;
+		align-items: center;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		font-size: var(--h5-font-size);
+		
+	}
+	
+	&__content--h2 {
+		text-transform: uppercase;
+	}
+
+	&__slider--div {
+		margin-left: 1rem;
+	}
+}

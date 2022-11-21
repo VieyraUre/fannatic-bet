@@ -1,7 +1,10 @@
-div(class='container-slider')
-    div(class='container-slider__slider')
-        div(class='tns-single' id='tnsBonuses')
-            -for(var i = 0; i < sliderBonuses.length; i++)
-                div
-                    div(class='tns-single__image' id=sliderBonuses[i].id)
-                        img(src=sliderBonuses[i].img, alt=sliderBonuses[i].alt)
+div(class='container-bonuses')
+	div(class='container-bonuses__content') 
+		h2(class='container-bonuses__content--h2') Bonuses and promotions
+		p(class='container-bonuses__content--p') Register NOW and get promo codes
+	div(class='tns-carousell' id='tnsCarousell')
+		include ../config/utilis/img-card
+		
+
+
+

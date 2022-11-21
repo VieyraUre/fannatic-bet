@@ -49,25 +49,8 @@ const tnsSinglePromotions = ()=> {
 		}); 
 };
 
-const sliderBonuses = ()=> {
-	const slider = tns({ 
-		container           : '#tnsBonuses',
-		items               : 1, 
-		slideBy             : 1,
-		speed               : 1000,
-		nav					: false,
-		mode                : 'gallery',
-		mouseDrag           : true,
-		controlsText: [ 
-			'<i class="fas fa-chevron-left"></i>',
-			'<i class="fas fa-chevron-right"></i>'
-			]
-		}); 
-};
-
 export {
 	tnsSingle,
 	tnsSingleGames,
-	tnsSinglePromotions,
-	sliderBonuses
+	tnsSinglePromotions
 }

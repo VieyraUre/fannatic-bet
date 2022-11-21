@@ -26,12 +26,12 @@ initAcc('.accordion.v1', true);
 initAcc('.accordion.v2', false);
 
 },{}],2:[function(require,module,exports){
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-var paymentSlider = exports.paymentSlider = function paymentSlider() {
+var paymentSlider = function paymentSlider() {
 	var slider = tns({
 		container: "#payment-carousell",
 		items: 1,
@@ -69,64 +69,49 @@ var paymentSlider = exports.paymentSlider = function paymentSlider() {
 	});
 };
 
+var tnsCarousell = function tnsCarousell() {
+	var slider = tns({
+		container: '#tnsCarousell',
+		items: 1,
+		slideBy: 1,
+		swipeAngle: false,
+		speed: 400,
+		edgePadding: 40,
+		nav: false,
+		mouseDrag: true,
+		controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
+		responsive: {
+			0: {
+				edgePadding: 0,
+				items: 2
+			},
+			390: {
+				items: 3
+			},
+			535: {
+				items: 3
+			},
+			735: {
+				items: 4
+			},
+			860: {
+				items: 5
+			},
+			1024: {
+				items: 5
+
+			},
+			1930: {
+				items: 6
+			}
+		}
+	});
+};
+
+exports.paymentSlider = paymentSlider;
+exports.tnsCarousell = tnsCarousell;
+
 },{}],3:[function(require,module,exports){
-// export const anchore = document.querySelectorAll(".promotions__box--anchore");
-// console.log(anchore);
-// const img = document.querySelector(".promotions__box--img")
-// console.log(img)
-
-// anchore.forEach(a => {
-//     a.addEventListener("mouseenter", event => {
-//         const target = event.target;
-//         const id = target.getAttribute('id');
-//         if(id === "card1") {
-//             img.style.backgroundImage = "url('../../assets/img/sports_1-1.png')"
-//             console.log("pase")
-//         } else if(id === "card2") {
-//             img.style.backgroundImage = "url('../../assets/img/free_s_1-1.png')"
-//             console.log("pase")
-
-//         } else if (id === "card3") {
-//             img.style.backgroundImage = "url('../../assets/img/casino_1_1.png)"
-//             console.log("pase")
-
-//         } else {
-//             img.style.backgroundImage = "url('../../assets/img/horse_1_1.png)"  
-//             console.log("pase")
-//         }
-//     })
-// })
-
-
-// export const anchore = document.querySelectorAll(".promotions__box--anchore");
-// console.log(anchore);
-// const img = document.querySelector(".promotions__box--img")
-// console.log(img)
-
-// anchore.forEach(a => {
-//     a.addEventListener("mouseenter", event => {
-//         const target = event.target;
-//         const id = target.getAttribute('id');
-//         if(id === "card1") {
-//             // anchore.style.backgroundImage= "url('../../assets/img/sports_1-1.png')";
-//             img.src ="assets/img/sports_1-1.png"
-//             console.log( img.src ="assets/img/sports_1-1.png")
-//         } else if(id === "card2") {
-//             img.src = "assets/img/free_s_1-1.png'"
-
-//         } else if (id === "card3") {
-//             img.src = "assets/img/casino_1_1.png'"
-//             console.log("pase")
-
-//         } else {
-//             img.src = "assets/img/horse_1_1.png'"  
-//             console.log("pase")
-//         }
-//     })
-// })
-"use strict";
-
-},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -153,7 +138,7 @@ var searchFilter = exports.searchFilter = function searchFilter() {
 	fnFilter(document.getElementById('searchInput'), '.class-item__fragment', '.class-item');
 };
 
-},{}],5:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -180,6 +165,79 @@ var tabs = function tabs() {
 };
 
 exports.default = tabs;
+
+},{}],5:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var globalAccordion = function globalAccordion() {
+	var btn_close = document.querySelector(".close-btn");
+	var tns_accordion = function tns_accordion() {
+		var d = document,
+		    acc = document.querySelectorAll(".tns-carousell__content");
+		console.log(acc);
+		for (var i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function () {
+				console.log(this);
+				jsonParce(this);
+				this.classList.toggle("active");
+				this.classList.add("tns-select");
+				var contentCarosell = document.querySelector(".tns-carousell");
+				var container_btnClose = document.querySelector(".container-icon-close");
+				var item = document.querySelector(".tns-controls");
+				contentCarosell.style.pointerEvents = "none";
+				item.style.pointerEvents = "none";
+				container_btnClose.style.display = "block";
+				var panel = document.querySelector(".accordion-container__panel");
+				if (panel.style.maxHeight) {
+					panel.style.maxHeight = null;
+				} else {
+					panel.style.maxHeight = "100%";
+				}
+			});
+		}
+	};
+
+	var close = function close() {
+		var contentCarosell = document.querySelector(".tns-carousell");
+		var container_btnClose = document.querySelector(".container-icon-close");
+		var item = document.querySelector(".tns-controls");
+		var selectItem = document.querySelector(".tns-select");
+		selectItem.classList.remove("tns-select");
+		container_btnClose.style.display = "none";
+		var panel = document.querySelector(".accordion-container__panel");
+		item.style.pointerEvents = "auto";
+		contentCarosell.style.pointerEvents = "auto";
+		// btns_controls.style.pointerEvents = "auto"
+		panel.style.maxHeight = null;
+	};
+
+	function jsonParce(item) {
+
+		fetch("./example.json").then(function (response) {
+			return response.json();
+		}).then(function (data) {
+			return generateInfo(data, item);
+		});
+	}
+
+	btn_close.addEventListener("click", close);
+
+	function generateInfo(data, item) {
+		var title = document.querySelector(".accordion-container__btn-acc");
+		var description = document.querySelector(".accordion-container__panel");
+		if (item) {
+			title.innerHTML = "\n        <h3>" + data.sliderBonuses[item.id].title + "</h3>\n        ";
+
+			description.innerHTML = "\n\t\t<ul>\n\t\t\t<li>" + data.sliderBonuses[item.id].content + "</li>\n\t\t</ul>\n        ";
+		}
+	};
+	tns_accordion();
+};
+
+exports.default = globalAccordion;
 
 },{}],6:[function(require,module,exports){
 'use strict';
@@ -229,23 +287,9 @@ var tnsSinglePromotions = function tnsSinglePromotions() {
 	});
 };
 
-var sliderBonuses = function sliderBonuses() {
-	var slider = tns({
-		container: '#tnsBonuses',
-		items: 1,
-		slideBy: 1,
-		speed: 1000,
-		nav: false,
-		mode: 'gallery',
-		mouseDrag: true,
-		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
-	});
-};
-
 exports.tnsSingle = tnsSingle;
 exports.tnsSingleGames = tnsSingleGames;
 exports.tnsSinglePromotions = tnsSinglePromotions;
-exports.sliderBonuses = sliderBonuses;
 
 },{}],7:[function(require,module,exports){
 'use strict';
@@ -281,6 +325,10 @@ var topNav = exports.topNav = function topNav() {
 },{}],8:[function(require,module,exports){
 'use strict';
 
+var _tnsAccordion = require('./components/tns-accordion');
+
+var _tnsAccordion2 = _interopRequireDefault(_tnsAccordion);
+
 var _tnsSlider = require('./components/tns-slider');
 
 var _paymentSlider = require('./components/payment-slider');
@@ -288,8 +336,6 @@ var _paymentSlider = require('./components/payment-slider');
 var _topNav = require('./components/topNav');
 
 var _searchFilter = require('./components/searchFilter');
-
-var _promotions = require('./components/promotions');
 
 var _tabs = require('./components/tabs');
 
@@ -307,8 +353,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		(0, _paymentSlider.paymentSlider)();
 		(0, _tnsSlider.tnsSingleGames)();
 		(0, _tnsSlider.tnsSinglePromotions)();
-		(0, _promotions.promotions)();
-		(0, _tnsSlider.sliderBonuses)();
 		// functions here
 	} else if (document.body.classList.contains('portfolio')) {
 		// functions here
@@ -316,9 +360,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	} else if (document.body.classList.contains('banking')) {
 		(0, _tabs2.default)();
 		// functions here
+	} else if (document.body.classList.contains('bonuses')) {
+		(0, _paymentSlider.tnsCarousell)();
+		(0, _tnsAccordion2.default)();
 	}
 })();
 
-},{"./components/accordion":1,"./components/payment-slider":2,"./components/promotions":3,"./components/searchFilter":4,"./components/tabs":5,"./components/tns-slider":6,"./components/topNav":7}]},{},[8]);
+},{"./components/accordion":1,"./components/payment-slider":2,"./components/searchFilter":3,"./components/tabs":4,"./components/tns-accordion":5,"./components/tns-slider":6,"./components/topNav":7}]},{},[8]);
 
 //# sourceMappingURL=scripts-min.js.map

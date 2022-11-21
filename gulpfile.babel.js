@@ -203,6 +203,11 @@ gulp.task('manifest', () => {
 		.pipe(gulp.dest('./public/'))
 });
 
+gulp.task('json-dev', () => {
+	gulp.src('./src/data/example.json')
+		.pipe(gulp.dest('./public/'))
+});
+
 gulp.task('sw', () => {
 	gulp.src('./src/sw.js')
 		.pipe(gulp.dest('./public/'))
@@ -218,7 +223,7 @@ gulp.task('sitemap', () => {
 		.pipe(gulp.dest('./public'))
 });
 
-gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'manifest', 'sw'], () => {
+gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'manifest', 'sw', 'json-dev'], () => {
 	server.init({
 		server: {
 			baseDir: './public'
@@ -230,6 +235,7 @@ gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-d
 	watch('./src/pug/**/**', () => gulp.start('pug-dev', server.reload));
 	watch('./src/img/**/**', () => gulp.start('images-dev'))
 	watch('./src/manifest.json', () => gulp.start('manifest'))
+	watch('./src/data/example.json', () => gulp.start('json-dev'))
 	watch('./src/sw.js', () => gulp.start('sw'))
 });
 
