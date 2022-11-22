@@ -321,11 +321,11 @@
 		},
 		{
 			"item": "sign me up",
-			"link": "ejkjfewjfw"
+			"link": "signUp.html"
 		},
 		{
 			"item": "About us",
-			"link": "signUp.html"
+			"link": "aboutUs.html"
 		}
 	],
 	"column2": [
@@ -763,37 +763,37 @@
 	"bankingDeposit": [
 		{
 			"img": "assets/img/1-banking_all.png",
-			"alt": "",
-			"link": "/",
+			"alt": "bitcoin, bitcoin cash, litecoin, dash, ethereum",
+			"link": "signUp.html",
 			"textLink": "Deposit Now"
 		},
 
 		{
 			"img": "assets/img/2-banking_p2p.png",
-			"alt": "",
-			"link": "/",
+			"alt": "p2p",
+			"link": "signUp.html",
 			"textLink": "Deposit Now"
 		},
 
 		{
 			"img": "assets/img/3-banking_visa_p2p.png",
-			"alt": "",
-			"link": "/",
+			"alt": "visa",
+			"link": "signUp.html",
 			"textLink": "Deposit Now"
 		}
 	],
 	"bankingWithdraw": [
 		{
 			"img": "assets/img/1-banking_all.png",
-			"alt": "",
-			"link": "/",
+			"alt": "bitcoin, bitcoin cash, litecoin, dash, ethereum",
+			"link": "signUp.html",
 			"textLink": "Withdraw Now"
 		},
 
 		{
 			"img": "assets/img/2-banking_p2p.png",
-			"alt": "",
-			"link": "/",
+			"alt": "p2p",
+			"link": "signUp.html",
 			"textLink": "Withdraw Now"
 		}
 	],

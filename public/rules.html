@@ -5,11 +5,12 @@
     <meta name="This website contains a collection of projects developed by Enrique Estrada using a Gulp boilerplate developed by him" content="content">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
-    <meta name="viewport" content="width = device-width, initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width = 320, initial-scale = 2.3">
+    <meta name="viewport" content="width = device-width, initial-scale = 2.3">
     <meta name="viewport" content="width = device-width, initial-scale = 2.3, minimum-scale = 1, maximum-scale = 5">
-    <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width = 320, initial-scale = 2.3">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="fanattic website">
     <!--X-UA-compatible-->
     <meta http-equiv="X-UA-compatible" content="IE=11">
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
@@ -36,7 +37,6 @@
     <link rel="shortcut icon" type="image/png" href="./assets/img/icon_1024.png">
     <link rel="apple-touch-icon" href="./assets/img/icon_1024.png">
     <link rel="apple-touch-startup-image" href="./assets/img/icon_1024.png">
-    <link rel="manifest" href="./manifest.json">
     <link rel="author" type="text/plain" href="./humans.txt">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml">
     <script src="https://kit.fontawesome.com/20f3c29ee8.js" crossorigin="anonymous"></script>
@@ -57,7 +57,7 @@
     <header class="main-header">
       <nav class="top-nav">
         <div class="top-nav__container">
-          <button class="top-nav__mb-iconMenu hamburger hamburger--slider-r" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button><a class="top-nav__link" href="./"><img class="top-nav__logo" src="assets/img/fanattic.bet_logo.png" alt="fannatic logo"></a>
+          <button class="top-nav__mb-iconMenu hamburger hamburger--slider-r" type="button" aria-label="hamburguer menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button><a class="top-nav__link" href="./"><img class="top-nav__logo" src="assets/img/fanattic.bet_logo.png" alt="fannatic logo"></a>
           <ul class="top-nav__menu">
                   <li class="top-nav__li"><a class="top-nav__anchor" href="casino.html">Casino</a></li>
                   <li class="top-nav__li"><a class="top-nav__anchor" href="sports.html">Sports</a></li>
@@ -76,24 +76,6 @@
           <div class="top-nav__btns--container btn"><a class="btn__login btn sign" href="../login.html">login</a><a class="btn__singup btn" href="../signUp.html">signup</a></div>
         </div>
       </nav>
-      <div class="overlay"></div>
-      <div class="ed-container modal__container close">
-        <div class="modal">
-          <h3 class="modal__h3">Inicia sesión</h3>
-          <form class="modal__form" action=""> 
-            <label class="modal__form--label" for="email">correo electrónico
-              <input class="modal__form--input" type="email" name="email" placeholder="Ingresa tu correo">
-            </label>
-            <label class="modal__form--label" for="password">Contraseña 
-              <input class="modal__form--input" type="password" name="password" placeholder="Ingresa tu contraseña">
-            </label>
-            <button class="modal__form--button btn btn__primary" type="submit">Iniciar sesión</button>
-            <div class="modal__form--signup"> 
-              <p>¿No tienes cuenta? <a href="../signUp.html"> Regístrate</a></p>
-            </div><a class="modal__form--anchor" hrefs="./"> ¿Olvidaste la Contraseña?</a>
-          </form>
-        </div>
-      </div>
     </header>
     <main class="main-container">
       <section class="rules">
@@ -232,14 +214,14 @@
       </section>
     </main>
     <footer class="main-footer">
-      <div class="main-footer__top"><a class="main-footer__top--logo" href="./"><img class="top-nav__logo" src="assets/img/fanattic.bet_logo.png" alt=""></a><a class="ed-item" href=""> email us: support@fanattic.bet</a></div>
+      <div class="main-footer__top"><a class="main-footer__top--logo" href="/"><img class="top-nav__logo" src="assets/img/fanattic.bet_logo.png" alt="fanattic logo"></a><a class="ed-item" href="#"> email us: support@fanattic.bet</a></div>
       <div class="ed-grid m-grid-2 lg-grid-4 row-gap main-footer__content">
         <ul class="main-footer__ul data-list">
                 <li class="main-footer__li"><a class="foot-icon" href="sports.html">Online sportsbook</a></li>
                 <li class="main-footer__li"><a class="foot-icon" href="casino.html">Online Casino</a></li>
                 <li class="main-footer__li"><a class="foot-icon" href="racebook.html">Online racebook</a></li>
-                <li class="main-footer__li"><a class="foot-icon" href="ejkjfewjfw">sign me up</a></li>
-                <li class="main-footer__li"><a class="foot-icon" href="signUp.html">About us</a></li>
+                <li class="main-footer__li"><a class="foot-icon" href="signUp.html">sign me up</a></li>
+                <li class="main-footer__li"><a class="foot-icon" href="aboutUs.html">About us</a></li>
         </ul>
         <ul class="main-footer__ul data-list">
                 <li class="main-footer__li"><a class="foot-icon" href="banking.html">Banking Options</a></li>
@@ -252,14 +234,16 @@
                 <li class="main-footer__li"><a class="foot-icon" href="rules.html">Casino rules</a></li>
         </ul>
         <ul class="main-footer__ul data-list">
-          <h4>Connect</h4>
-          <div class="main-footer__connect--container">
-            <ul class="main-footer__connect--list"> 
-                    <li class="main-footer__connect--li"> <a href="ejkjfewjfw" target="_blank"><img src="assets/img/1_icon.svg" alt="Instagram"></a></li>
-                    <li class="main-footer__connect--li"> <a href="ejkjfewjfw" target="_blank"><img src="assets/img/4_icon.svg" alt="facebook"></a></li>
-                    <li class="main-footer__connect--li"> <a href="ejkjfewjfw" target="_blank"><img src="assets/img/5_icon.svg" alt="l8"></a></li>
-            </ul>
-          </div>
+          <li>
+            <h4>Connect</h4>
+            <div class="main-footer__connect--container">
+              <ul class="main-footer__connect--list"> 
+                      <li class="main-footer__connect--li"> <a href="ejkjfewjfw" target="_blank"><img src="assets/img/1_icon.svg" alt="Instagram"></a></li>
+                      <li class="main-footer__connect--li"> <a href="ejkjfewjfw" target="_blank"><img src="assets/img/4_icon.svg" alt="facebook"></a></li>
+                      <li class="main-footer__connect--li"> <a href="ejkjfewjfw" target="_blank"><img src="assets/img/5_icon.svg" alt="l8"></a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </footer>
