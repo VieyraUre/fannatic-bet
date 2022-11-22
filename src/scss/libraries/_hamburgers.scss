@@ -22,9 +22,11 @@
   overflow: visible; 
   z-index: 10;
   display: none;
+  
 
   @include from(l) {
     display: block;
+	margin-right: 150px;
   }
 
 }

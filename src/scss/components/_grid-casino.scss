@@ -27,9 +27,16 @@
             width: 70%;
         }
     }
+
+	&__layout--card-img {
+		max-width: 200px;
+		min-width: 90px;
+		width: 100%;
+	}
     
     &__layout--col2 {
         width: 100%;
+		padding: 0rem 0 2rem 0;
         background-color: #05380f;
         @include from(l) {
             width: 25%;
@@ -39,6 +46,10 @@
     &__layout--h3 {
         // background-color: #4ab75c;
         font-size: var(--small-font-size);
+		align-items: center;
+		text-align: center;
+		max-height: 100px;
+		height: 100%;
 
         @include from(l) {
             font-size: var(--normal-font-size );
@@ -63,6 +74,6 @@
 
     &__layout--imgs {
         padding: 0 1rem;
-        row-gap: 1rem;
+        row-gap: 2rem;
     }
 }

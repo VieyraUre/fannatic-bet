@@ -60,7 +60,7 @@ function generateInfo(data,item){
 	let description = document.querySelector(".accordion-container__panel");
     if(item){
         title.innerHTML= `
-        <h3>${data.sliderBonuses[item.id].title}</h3>
+        <h4>${data.sliderBonuses[item.id].title}</h4>
         `;
         
         description.innerHTML=`

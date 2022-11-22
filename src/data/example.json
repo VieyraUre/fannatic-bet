@@ -200,37 +200,37 @@
 		{
 			"img": "assets/img/sports.png",
 			"text": "sports",
-			"link": "/juegos-vivo",
+			"link": "signUp.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/casino.png",
 			"text": "casino",
-			"link": "/juegos-vivo",
+			"link": "signUp.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/live_c.png",
 			"text": "live casino",
-			"link": "/juegos-vivo",
+			"link": "signUp.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/racebook.png",
 			"text": "racebook",
-			"link": "/juegos-vivo",
+			"link": "signUp.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/wagerin.png",
 			"text": "live wagerin",
-			"link": "/juegos-vivo",
+			"link": "signUp.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/props.png",
 			"text": "props buider",
-			"link": "/juegos-vivo",
+			"link": "signUp.html",
 			"textLink": "join now"
 		}
 	],
@@ -240,7 +240,7 @@
 			"img": "assets/img/1_bonuses.png",
 			"imgMobile": "assets/img/1_moibile-bonuses.png",
 			"alt": "50% sports welcome bonus",
-			"link": "#",
+			"link": "bonuses.html",
 			"textLink": "initial deposit only"
 		},
 		{
@@ -248,7 +248,7 @@
 			"img": "assets/img/2_bonuses.png",
 			"imgMobile": "assets/img/2_moibile-bonuses.png",
 			"alt": "25 free spins",
-			"link": "/juegos-vivo",
+			"link": "bonuses.html",
 			"textLink": "initial deposit only"
 		},
 		{
@@ -256,7 +256,7 @@
 			"img": "assets/img/3_bonuses.png",
 			"imgMobile": "assets/img/3_moibile-bonuses.png",
 			"alt": "50% casino reload",
-			"link": "/juegos-vivo",
+			"link": "bonuses.html",
 			"textLink": "reload deposit"
 		},
 		{
@@ -264,7 +264,7 @@
 			"img": "assets/img/4_bonuses.png",
 			"alt": "up to 8% daily horse rebate",
 			"imgMobile": "assets/img/4_moibile-bonuses.png",
-			"link": "/juegos-vivo",
+			"link": "bonuses.html",
 			"textLink": ""
 		}
 	],
@@ -273,28 +273,28 @@
 			"id": "card1",
 			"img": "assets/img/1_moibile-bonuses.png",
 			"alt": "50% sports welcome bonus",
-			"link": "#",
+			"link": "bonuses.html",
 			"textLink": "initial deposit only"
 		},
 		{
 			"id": "card2",
 			"img": "assets/img/2_moibile-bonuses.png",
 			"alt": "25 free spins",
-			"link": "/juegos-vivo",
+			"link": "bonuses.html",
 			"textLink": "initial deposit only"
 		},
 		{
 			"id": "card3",
 			"img": "assets/img/3_moibile-bonuses.png",
 			"alt": "50% casino reload",
-			"link": "/juegos-vivo",
+			"link": "bonuses.html",
 			"textLink": "reload deposit"
 		},
 		{
 			"id": "card4",
 			"img": "assets/img/4_moibile-bonuses.png",
 			"alt": "up to 8% daily horse rebate",
-			"link": "/juegos-vivo",
+			"link": "bonuses.html",
 			"textLink": ""
 		}
 	],
@@ -605,50 +605,158 @@
 			"alt": "platinum"
 		},
 		{
+			"img": "assets/img/salsa.png",
+			"alt": "salsa"
+		},
+		{
 			"img": "assets/img/tomhorn.png",
 			"alt": "tomhorn"
 		},
 		{
 			"img": "assets/img/ezugi.png",
 			"alt": "ezugi"
+		},
+		{
+			"img": "assets/img/top-live-casino.png",
+			"alt": "top live  casino"
+		},
+		{
+			"img": "assets/img/betgamestv.png",
+			"alt": "bet games.tv"
+		},
+		{
+			"img": "assets/img/evolutiongaming.png",
+			"alt": "evolution gaming"
+		},
+		{
+			"img": "assets/img/evoplay.png",
+			"alt": "evo play"
+		},
+		{
+			"img": "assets/img/spinomenal.png",
+			"alt": "spinomenal"
+		},
+		{
+			"img": "assets/img/booongo.png",
+			"alt": "booongo"
+		},
+		{
+			"img": "assets/img/vivogaming.png",
+			"alt": "vivo gaming"
+		},
+		{
+			"img": "assets/img/wazdan.png",
+			"alt": "wazdan"
+		},
+		{
+			"img": "assets/img/irondog.png",
+			"alt": "iron dog"
+		},
+		{
+			"img": "assets/img/1x2gaming.png",
+			"alt": "1x2gaming"
+		},
+		{
+			"img": "assets/img/sagaming.png",
+			"alt": "sa gaming"
+		},
+		{
+			"img": "assets/img/booming.png",
+			"alt": "booming games"
+		},
+		{
+			"img": "assets/img/noble.png",
+			"alt": "noble"
+		},
+		{
+			"img": "assets/img/felix.png",
+			"alt": "felix gaming"
+		},
+		{
+			"img": "assets/img/nucleus.png",
+			"alt": "nucleus"
+		},
+		{
+			"img": "assets/img/nucleus.png",
+			"alt": "gamshy"
+		},
+		{
+			"img": "assets/img/revolver.png",
+			"alt": "revolver"
+		},
+		{
+			"img": "assets/img/Elik.png",
+			"alt": "elk studios"
+		},
+		{
+			"img": "assets/img/Thunderkick.png",
+			"alt": "Thunderkick"
+		},
+		{
+			"img": "assets/img/habanero.png",
+			"alt": "habanero"
+		},
+		{
+			"img": "assets/img/playson.png",
+			"alt": "play son"
+		},
+		{
+			"img": "assets/img/goldenrace.png",
+			"alt": "golden Rame"
+		},
+		{
+			"img": "assets/img/nsoft.png",
+			"alt": "nsoft"
+		},
+		{
+			"img": "assets/img/jackpot.png",
+			"alt": "jackpot software"
+		},
+		{
+			"img": "assets/img/One-touch.png",
+			"alt": "one touch"
+		},
+		{
+			"img": "assets/img/5men.png",
+			"alt": "5 men gaming"
 		}
 	],
 	"methods": [
+		{
+			"img": "assets/img/p2p-icon.png",
+			"alt": "p2p"
+		},
+		{
+			"img": "assets/img/bitcoin-icon.png",
+			"alt": "bitcoin"
+		},
 		{
 			"img": "assets/img/bitcoin-cash-icon.png",
 			"alt": "bitcoin cash"
 		},
 		{
+			"img": "assets/img/mastercard-icon.png",
+			"alt": "mastercard"
+		},
+		{
 			"img": "assets/img/visa-icon.png",
-			"alt": "bitcoin cash"
+			"alt": "visa"
 		},
 		{
 			"img": "assets/img/zelle-icon.png",
-			"alt": "bitcoin cash"
-		},
-		{
-			"img": "assets/img/mastercard-icon.png",
-			"alt": "bitcoin cash"
+			"alt": "zelle"
 		},
 		{
 			"img": "assets/img/ethereum-icon.png",
-			"alt": "bitcoin cash"
+			"alt": "ethereum"
 		},
 		{
 			"img": "assets/img/litecoin-icon.png",
-			"alt": "bitcoin cash"
-		},
-		{
-			"img": "assets/img/p2p-icon.png",
-			"alt": "bitcoin cash"
-		},
-		{
-			"img": "assets/img/bitcoin-icon.png",
-			"alt": "bitcoin cash"
+			"alt": "litecoin"
 		},
 		{
 			"img": "assets/img/usdt-icon.png",
-			"alt": "bitcoin cash"
+			"alt": "usdt"
 		}
 	],
 

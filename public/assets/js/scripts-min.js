@@ -229,7 +229,7 @@ var globalAccordion = function globalAccordion() {
 		var title = document.querySelector(".accordion-container__btn-acc");
 		var description = document.querySelector(".accordion-container__panel");
 		if (item) {
-			title.innerHTML = "\n        <h3>" + data.sliderBonuses[item.id].title + "</h3>\n        ";
+			title.innerHTML = "\n        <h4>" + data.sliderBonuses[item.id].title + "</h4>\n        ";
 
 			description.innerHTML = "\n\t\t<ul>\n\t\t\t<li>" + data.sliderBonuses[item.id].content + "</li>\n\t\t</ul>\n        ";
 		}

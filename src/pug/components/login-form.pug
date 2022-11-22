@@ -1,0 +1,21 @@
+div(class="ed-container modal__container")
+	div(class="signUp login")
+		//- a(href="index.html")
+		//- 	img(src='assets/img/fanattic.bet_logo.png', alt="fannatic logo")
+		h3(class="login__h3") Login 
+		p(class="login__p") Fanatic.bet
+		form(action="" class="signUp__form") 
+
+			div(class="signUp__form--container ed-grid s-grid-1") 
+				label(for="text" class="signUp__form--label") Username
+					input(type="email" name="email" class="signUp__form--input" placeholder="Username")
+			
+				label(for="password" class="signUp__form--label") Password 
+					input(type="password" name="password" class="signUp__form--input" placeholder="Password")
+
+			button(type="submit" class="signUp__form--button btn btn__form") Login
+			
+			div(class="signUp__form--login") 
+				a(href=".?")  ¿Forgot Password? 
+				p ¿Don't have an account? 
+					a(href="signUp.html") Click here

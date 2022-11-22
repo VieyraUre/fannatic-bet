@@ -128,6 +128,24 @@
 			}
 		}
 	}
+
+	&__form {
+		background-color: var(--color-second);
+		border: 2px solid var(--color-second);
+		color: var(--color-background );
+		font-weight: 500;
+		
+		&:active {
+			background-color: transparent;
+		}
+		
+		@include from(l) {
+			&:hover {
+				background: var(--color-heading);
+				border: 2px solid var(--color-heading);
+			}
+		}
+	}
 }
 
 
