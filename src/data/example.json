@@ -325,7 +325,7 @@
 		},
 		{
 			"item": "About us",
-			"link": "aboutUs.html"
+			"link": "about-us.html"
 		}
 	],
 	"column2": [
@@ -397,10 +397,10 @@
 			"field3": "sports",
 			"field4": "bonus",
 			"field5": "",
-			"link": "hdwqhd",
+			"link": "login.html",
 			"linkText": "join now",
 			"image": "assets/img/3_background_fanattic.jpg",
-			"imageMobile": "assets/img/1_slider-mobile.png",
+			"imageMobile": "assets/img/1_slider-mobile.jpg",
 			"alt": "100% welcome sports bonus"
 		},
 		{
@@ -409,10 +409,10 @@
 			"field3": "casino",
 			"field4": "bonus",
 			"field5": "",
-			"link": "hdwqhd",
+			"link": "login.html",
 			"linkText": "join now",
 			"image": "assets/img/2_background_fanattic.jpg",
-			"imageMobile": "assets/img/2_slider-mobile.png",
+			"imageMobile": "assets/img/2_slider-mobile.jpg",
 			"alt": "100% welcome casino bonus"
 		},
 		{
@@ -421,10 +421,10 @@
 			"field2": "dayly",
 			"field3": "horse",
 			"field4": "rebate",
-			"link": "hdwqhd",
+			"link": "login.html",
 			"linkText": "join now",
 			"image": "assets/img/1_background_fanattic.jpg",
-			"imageMobile": "assets/img/3_slider-mobile.png",
+			"imageMobile": "assets/img/3_slider-mobile.jpg",
 			"alt": "up to 8% dayly horse"
 		}
 	],
@@ -437,7 +437,7 @@
 			"field5": "",
 			"link": "hdwqhd",
 			"linkText": "join now",
-			"imageMobile": "assets/img/1_slider-mobile.png",
+			"imageMobile": "assets/img/1_slider-mobile.jpg",
 			"alt": "jsjsjs"
 		},
 		{
@@ -448,7 +448,7 @@
 			"field5": "",
 			"link": "hdwqhd",
 			"linkText": "join now",
-			"imageMobile": "assets/img/2_slider-mobile.png",
+			"imageMobile": "assets/img/2_slider-mobile.jpg",
 			"alt": "jsjsjs"
 		},
 		{
@@ -459,7 +459,7 @@
 			"field4": "rebate",
 			"link": "hdwqhd",
 			"linkText": "join now",
-			"imageMobile": "assets/img/3_slider-mobile.png",
+			"imageMobile": "assets/img/3_slider-mobile.jpg",
 			"alt": "jsjsjs"
 		}
 	],
@@ -838,6 +838,24 @@
 			"title": "100% SPORTS WELCOME BONUS",
 			"content": "• You will receive a 100% bonus on your qualifying INITIAL deposit only. • A minimum deposit of $20 is required to qualify for the bonus. • The maximum bonus per deposit is $250 • Bonus awarded as Free Play money. • There is a 12X (Twelve times) rollover requirement associated with this promotion. • Rollover (w) is calculated based on your deposit (d) plus bonus, (b) multiplied by the rollover requirement of your bonus (r). Rollover Formula w = (d+b)* r • Please note that only the lowest amount between the risk and the win counts towards your rollover requirement. Horses, Casino, Poker and Live Betting action doesn’t count towards the required roll. • To receive the bonus, you must use Promo Code FAN100 • This promotion is non-transferable. • The free plays can only be used on straight bets up to -150. They cannot be used in the Racebook, Casino, Poker, or Live Betting • FANATTIC.BET reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. • For additional information regarding bonuses and betting limits please visit our (add hyperlink) Important Disclaimer: • The user is warned that they should make their own inquiry into the legality of participating in any of these games and/or activities. • FANATTIC.BET assumes no responsibility for the actions by and makes no representation or endorsement of any of these games and/or activities if they are illegal in the jurisdiction of the reader or client of this site."
 
+		}
+	],
+
+	"bottom-nav": [
+		{
+			"icon": "1_icon-chat.svg",
+			"label": "chat",
+			"link": "#"
+		},
+		{
+			"icon": "2_icon-bonuses.svg",
+			"label": "bonuses",
+			"link": "bonuses.html"
+		},
+		{
+			"icon": "3_icon-laguages.svg",
+			"label": "chat",
+			"link": "#"
 		}
 	]
 }

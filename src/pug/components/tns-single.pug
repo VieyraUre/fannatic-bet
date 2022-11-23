@@ -1,41 +1,6 @@
 mixin card(image, alt, field) 
 	div
 		div(class='tns-single__content'): img(src=image alt=alt class='tns-single__img' )
-			
-
-//- div(class='container')
-//- 	div(class='container__slider')
-//- 		div(class='tns-single' id='tnsSingle')
-//- 			-for(var i = 0; i < slides.length; i++)
-//- 				-var slide = slides[i]
-//- 				if(slide)
-//- 					div(class='tns-single__wrapper') 
-//- 						div(class="tns-single__content")
-//- 							div(class="tns-single__content--div")
-//- 								p= slide.field1
-//- 								p= slide.field2
-//- 							p= slide.field3
-//- 							div(class="tns-single__content--div")
-//- 								p= slide.field4
-//- 								p=slide.field5
-//- 							a(href=slide.link class="tns-single__content--anchore")= slide.linkText
-//- 						div(class='tns-single__content--image'): img(src=slide.image alt=slide.alt class='tns-single__content--img' )
-
-
-					
-//- div(class='container')
-//- 	div(class='container__slider')
-//- 		div(class='tns-single' id='tnsSingle')
-//- 			-for(var i = 0; i < slider.length; i++)
-//- 				if(slider[i].field)
-//- 					div
-//- 						div(class='tns-single__content'): img(src=slider[i].image alt=slider[i].alt class='tns-single__img' )
-//- 						div(class="tns-single__content--cta tns-single__content--container")
-//- 							-for(var j = 0; j < slider[i].field.length; j++)
-//- 								p(class="ed-item" class=slider[i].field[j])= slider[i].field[j]
-//- 							a(class="btn btn__primary" href=slider[i].link)= slider[i].linkText
-//- 				else
-//- 					+card(slider[i].slider)
 
 
 div(class='container-slider')

@@ -54,35 +54,34 @@
 			}
 		}
 		
-}
-
-.active {
-	background-color: rgb(186, 24, 24);
-}
-
-&__panel {
-	border-radius: 0px 0px 12px 12px;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.219), 0 6px 6pxrgba(0, 0, 0, 0.219);
-	color: black;
-	padding: 0 18px;
-	background-color:  var(--color-background);
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.3s ease-out;
-	margin-bottom: 3rem;
-
-	ul {
-		padding: 0;
-	}
-	li {
-		list-style: none;
 	}
 
-}
+	// .active {
+	// 	background-color: rgb(186, 24, 24);
+	// }
 
-.active:after {
-	content: "\2796";
-}
+	&__panel {
+		border-radius: 0px 0px 12px 12px;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.219), 0 6px 6pxrgba(0, 0, 0, 0.219);
+		color: black;
+		padding: 0 18px;
+		background-color:  var(--color-background);
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out;
+		margin-bottom: 3rem;
+
+		ul {
+			padding: 0;
+		}
+		li {
+			list-style: none;
+		}
+		
+		.active:after {
+			content: "\2796";
+		}
+	}
 }
 
 .container-icon-close{
