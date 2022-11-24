@@ -78,7 +78,7 @@ var tnsCarousell = function tnsCarousell() {
 		speed: 400,
 		autoplayHoverPause: true,
 		autoplayButtonOutput: false,
-		autoplay: true,
+		// autoplay: true,
 		edgePadding: 40,
 		nav: false,
 		mouseDrag: true,

@@ -140,12 +140,11 @@
 		margin-bottom: 1rem;
 	}
 	
-	// &__box--img {
-	// 	z-index: -1;
-	// 	// @include from(l) {
-	// 	// 	box-shadow: inset 0px 0px 26px var(--color-third);
-	// 	// }	
-	// }
+	&__box--img {
+		z-index: -1;	
+	}
+
+	
 
 	&__grid--content {
 		max-height: 200px;
@@ -160,13 +159,6 @@
 		max-width: 300px;
 		width: 60%;
 
-		@include from(l) {
-			
-		}
-		
-		@include from(xl) {
-
-		}
 	}
 	
 	// &__box--anchore {
