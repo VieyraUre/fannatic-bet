@@ -514,7 +514,7 @@
 			"img": "assets/img/live.png",
 			"alt": "Live Games",
 			"title": "Live Games",
-			"link": "https://betslip.fanattic.bet/juegos-mesa/"
+			"link": "live-games.html"
 		},
 		{
 			"img": "assets/img/table.png",
@@ -857,5 +857,37 @@
 			"label": "chat",
 			"link": "#"
 		}
+	],
+
+	"liveGames": [
+		{
+			"lobbies": [
+				{
+					"img": "assets/img/freshdeck.png",
+					"alt": "Fresh desk",
+					"title": "Fresh desk",
+					"textLink": "Play",
+					"href": "login.html"
+				},
+				{
+					"img": "assets/img/fresh-deck.jpg",
+					"alt": "Fresh desk",
+					"title": "Fresh desk",
+					"textLink": "Play",
+					"href": "login.html"
+				}
+			],
+
+			"seeMore": [
+				{
+					"img": "assets/img/freshdeck.png",
+					"alt": "Fresh desk",
+					"title": "Fresh desk",
+					"textLink": "Play",
+					"href": "login.html"
+				}
+			]
+		}
+		
 	]
 }
