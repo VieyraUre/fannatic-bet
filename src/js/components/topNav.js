@@ -4,6 +4,7 @@ export const topNav = () => {
 		const innerAfter = document.querySelector('.hamburger-inner::after')
 		document.querySelector('.hamburger').addEventListener('click', function(e) {
 			e.preventDefault();
+			console.log(e);
 			[].map.call(document.querySelectorAll('.hamburger'), function(el) {
 				el.classList.toggle('is-active');
 				if(el.className.includes('is-active')) {
@@ -17,7 +18,7 @@ export const topNav = () => {
 			});
 			[].map.call(document.querySelectorAll('.top-nav__menu'), function(el) {
 				el.classList.toggle('show-top-nav');
-				console.log(el)
+				// console.log(el)
 			});
 			
 		}); 

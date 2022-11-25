@@ -1,16 +1,10 @@
-mixin bottomNav(icon,label,link)
-	li(class='bottom-nav__li')
-		a(href=link, class='bottom-nav__anchor' name='home')
-			i(class='fab fa-chrome')
-				span= label
-
 mixin list(item, link)
 	li(class='top-nav__li'): a(href=link, class='top-nav__anchor')=item
 
 
 nav(class='bottom-nav')
 	div(class='bottom-nav__container')
-		ul(class='bottom-nav__menu')
+		ul(class='bottom-nav__bar')
 			li(class='bottom-nav__li')
 				button(class='bottom-nav__button')
 					<svg (class='bottom-nav__svg') xmlns="http://www.w3.org/2000/svg" width="30" height="26.28" viewBox="0 0 30 26.28">
@@ -41,8 +35,8 @@ nav(class='bottom-nav')
 				button(type='button', aria-label="hamburguer menu" class='top-nav__mb-iconMenu hamburger hamburger--slider-r bottom-nav__hamburguer') 
 					span.hamburger-box
 						span.hamburger-inner
-				ul(class='top-nav__menu')
-					-for(var i = 0; i < list.length ; i++)
-						-var item = list[i]
+				ul(class='bottom-nav__menu--ham')
+					-for(var i = 0; i < menuMobile.length ; i++)
+						-var item = menuMobile[i]
 						+list(item.item, item.link)
 				span Menu

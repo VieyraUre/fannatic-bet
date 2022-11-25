@@ -31,6 +31,28 @@ initAcc('.accordion.v2', false);
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+var bottomNav = exports.bottomNav = function bottomNav() {
+	var myFunction = function myFunction() {
+		document.querySelector('.bottom-nav__hamburguer').addEventListener('click', function (e) {
+			e.preventDefault();
+			console.log(e);
+			[].map.call(document.querySelectorAll('.bottom-nav__hamburguer'), function (el) {
+				el.classList.toggle('is-active');
+			});
+			[].map.call(document.querySelectorAll('.bottom-nav__menu--ham'), function (el) {
+				el.classList.toggle('show-bottom-nav');
+			});
+		});
+	};
+	myFunction();
+};
+
+},{}],3:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
 var paymentSlider = function paymentSlider() {
 	var slider = tns({
 		container: "#payment-carousell",
@@ -114,7 +136,7 @@ var tnsCarousell = function tnsCarousell() {
 exports.paymentSlider = paymentSlider;
 exports.tnsCarousell = tnsCarousell;
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -141,7 +163,7 @@ var searchFilter = exports.searchFilter = function searchFilter() {
 	fnFilter(document.getElementById('searchInput'), '.class-item__fragment', '.class-item');
 };
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -169,7 +191,7 @@ var tabs = function tabs() {
 
 exports.default = tabs;
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -242,7 +264,7 @@ var globalAccordion = function globalAccordion() {
 
 exports.default = globalAccordion;
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -294,7 +316,7 @@ exports.tnsSingle = tnsSingle;
 exports.tnsSingleGames = tnsSingleGames;
 exports.tnsSinglePromotions = tnsSinglePromotions;
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -306,6 +328,7 @@ var topNav = exports.topNav = function topNav() {
 		var innerAfter = document.querySelector('.hamburger-inner::after');
 		document.querySelector('.hamburger').addEventListener('click', function (e) {
 			e.preventDefault();
+			console.log(e);
 			[].map.call(document.querySelectorAll('.hamburger'), function (el) {
 				el.classList.toggle('is-active');
 				if (el.className.includes('is-active')) {
@@ -318,14 +341,14 @@ var topNav = exports.topNav = function topNav() {
 			});
 			[].map.call(document.querySelectorAll('.top-nav__menu'), function (el) {
 				el.classList.toggle('show-top-nav');
-				console.log(el);
+				// console.log(el)
 			});
 		});
 	};
 	myFunction();
 };
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 'use strict';
 
 var _tnsAccordion = require('./components/tns-accordion');
@@ -337,6 +360,8 @@ var _tnsSlider = require('./components/tns-slider');
 var _paymentSlider = require('./components/payment-slider');
 
 var _topNav = require('./components/topNav');
+
+var _bottomNav = require('./components/bottomNav');
 
 var _searchFilter = require('./components/searchFilter');
 
@@ -350,7 +375,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 (function () {
 	(0, _topNav.topNav)();
-	(0, _accordion.initAcc)();
+	(0, _bottomNav.bottomNav)(), (0, _accordion.initAcc)();
 	if (document.body.classList.contains('home')) {
 		(0, _tnsSlider.tnsSingle)();
 		(0, _paymentSlider.paymentSlider)();
@@ -369,6 +394,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	}
 })();
 
-},{"./components/accordion":1,"./components/payment-slider":2,"./components/searchFilter":3,"./components/tabs":4,"./components/tns-accordion":5,"./components/tns-slider":6,"./components/topNav":7}]},{},[8]);
+},{"./components/accordion":1,"./components/bottomNav":2,"./components/payment-slider":3,"./components/searchFilter":4,"./components/tabs":5,"./components/tns-accordion":6,"./components/tns-slider":7,"./components/topNav":8}]},{},[9]);
 
 //# sourceMappingURL=scripts-min.js.map

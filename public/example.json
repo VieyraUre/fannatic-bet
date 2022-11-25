@@ -25,6 +25,28 @@
 			"link": "banking.html"
 		}
 	],
+	"menuMobile": [
+		{
+			"item": "Casino",
+			"link": "casino.html"
+		},
+		{
+			"item": "Sports",
+			"link": "sports.html"
+		},
+		{
+			"item": "Racebook",
+			"link": "racebook.html"
+		},
+		{
+			"item": "Live Betting",
+			"link": "live-betting.html"
+		},
+		{
+			"item": "Banking",
+			"link": "banking.html"
+		}
+	],
 	"casos": [
 		{
 			"img": "assets/img/img1.jpg",
