@@ -15,7 +15,7 @@ section(class="games")
 
 	div(class="games__slider block")
 		h2(class="games__container--h2") Enjoy our products
-		div(class='tns-single' id='tnsSingleGames')
+		div(class='tns-single' aria-hidden="true" id='tnsSingleGames')
 			-for(var i = 0; i < games.length; i++)
 				div(class="grid__card")
 					img(src=games[i].img alt=games[i].text class="grid__img")

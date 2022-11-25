@@ -295,7 +295,7 @@ var tnsSingleGames = function tnsSingleGames() {
 		nav: false,
 		mode: 'gallery',
 		mouseDrag: true,
-		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+		controlsText: ['<i role="button" class="fas fa-chevron-left"></i>', '<i role="button" class="fas fa-chevron-right"></i>']
 	});
 };
 
@@ -308,7 +308,7 @@ var tnsSinglePromotions = function tnsSinglePromotions() {
 		nav: false,
 		mode: 'gallery',
 		mouseDrag: true,
-		controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+		controlsText: ['<i role="button" class="fas fa-chevron-left"></i>', '<i role="button" class="fas fa-chevron-right"></i>']
 	});
 };
 

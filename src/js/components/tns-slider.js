@@ -27,8 +27,8 @@ const tnsSingleGames = ()=> {
 		mode                : 'gallery',
 		mouseDrag           : true,
 		controlsText: [ 
-			'<i class="fas fa-chevron-left"></i>',
-			'<i class="fas fa-chevron-right"></i>'
+			'<i role="button" class="fas fa-chevron-left"></i>',
+			'<i role="button" class="fas fa-chevron-right"></i>'
 			]
 		}); 
 };
@@ -43,8 +43,8 @@ const tnsSinglePromotions = ()=> {
 		mode                : 'gallery',
 		mouseDrag           : true,
 		controlsText: [ 
-			'<i class="fas fa-chevron-left"></i>',
-			'<i class="fas fa-chevron-right"></i>'
+			'<i role="button" class="fas fa-chevron-left"></i>',
+			'<i role="button" class="fas fa-chevron-right"></i>'
 			]
 		}); 
 };

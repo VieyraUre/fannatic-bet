@@ -4,7 +4,7 @@ mixin card(image, alt, field)
 
 
 div(class='container-slider')
-	div(class='container-slider__slider')
+	div(class='container-slider__slider' aria-hidden="true")
 		div(class='tns-single' id='tnsSingle')
 			-for(var i = 0; i < slides.length; i++)
 				if(slides)
@@ -13,7 +13,7 @@ div(class='container-slider')
 							picture(class='tns-single__image--picture')
 								source(media="(min-width: 959px)", srcset=slides[i].image, class='tns-single__image--source')
 								img(src=slides[i].imageMobile alt=slides[i].alt class='tns-single__image--img' )
-						div(class="tns-single__content")
+						div(class="tns-single__content" aria-hidden="true")
 							div(class="tns-single__content--div")
 								p(class="tns-single__content--unique")= slides[i].field0
 								h1(class="tns-single__content--big")= slides[i].field1

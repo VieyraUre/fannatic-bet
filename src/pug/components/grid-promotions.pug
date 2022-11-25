@@ -24,15 +24,15 @@ section(class="games promotions")
 
 	div(class="games__slider block")
 		h2(class="promotions__container--h2") Bonuses and promotions
-		div(class='tns-single' id='tnsSinglePromitions')
+		div(class='tns-single' aria-hidden="true" id='tnsSinglePromitions')
 			-for(var i = 0; i < promotionsMobile.length; i++)
 				if(promotionsMobile[i].textLink)
 					div(class="promotions__grid--card")
 						a(href=promotionsMobile[i].link) 
-							img(src=promotionsMobile[i].img alt=promotionsMobile[i].text class="grid__img")
+							img(src=promotionsMobile[i].img alt=promotionsMobile[i].alt class="grid__img")
 							div(class="promotions__grid--content")
 								a(href=promotionsMobile[i].link class="grid__content--anchore btn btn__third")= promotionsMobile[i].textLink
 				else 
 					div(class="promotions__grid--card")
 						a(href=promotionsMobile[i].link) 
-							img(src=promotionsMobile[i].img alt=promotionsMobile[i].text class="grid__img")
+							img(src=promotionsMobile[i].img alt=promotionsMobile[i].alt class="grid__img")

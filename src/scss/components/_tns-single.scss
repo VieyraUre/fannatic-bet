@@ -92,7 +92,9 @@
 	}
 
 	&__image--img {
-		height: 100vh;
+		width: 100%;
+		height: auto;
+		aspect-ratio: auto;
 		@include from(l) {
 			height: 500px;
 		}
@@ -103,7 +105,8 @@
 .container-slider {
 	width: 100%;
 	margin: 0px auto;
-	height: 100vh;
+	background: var(--color-bodySecond);
+	height: 90vh;
 	// border: 2px solid green;
 
 	@include from(l) {
