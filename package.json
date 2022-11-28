@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Simple scafolding for statics web projects",
     "main": "gulpfile.babel.js",
-    "homepage": "https://github.com/VieyraUre/fannatic.bet.git",
+    "homepage": "https://VieyraUre.github.io/fannatic-bet.git",
     "scripts": {
         "start": "gulp",
         "pug": "gulp pug",
