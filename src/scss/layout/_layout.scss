@@ -19,6 +19,7 @@ body {
 	font-size  		: fontSize(small);
 	margin-top 		: auto;
 	position: relative;
+	width: 100%;
 
 	a:hover {
 		color: var(--color-body);
@@ -84,6 +85,7 @@ body {
 		background-color: var(--color-block);
 		color: var(--color-bodySecond );
 		padding: 28px 0;
+		width: 100%;
 
 	}
 	
