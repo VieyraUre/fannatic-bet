@@ -1784,6 +1784,7 @@ var multilanguages = function multilanguages(root, idiom2) {
 			for (var _i = 0; _i < _dataEs2.default.lenguajes.length; _i++) {
 				if (_dataEs2.default.lenguajes[_i].text != 'en') {
 					if (_dataEs2.default.lenguajes[_i].text === idiom) {
+						// window.location.pathname = `${data.lenguajes[i].text}/${idiom2}`
 						window.location.pathname = 'fannatic-bet/' + _dataEs2.default.lenguajes[_i].text + '/' + idiom2;
 					}
 				} else {
@@ -2163,7 +2164,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		(0, _tnsAccordion2.default)();
 	} else if (document.body.classList.contains('singup') || document.body.classList.contains('registro')) {
 		(0, _multilanguages2.default)('signUp.html', 'registro.html');
-	} else if (document.body.classList.contains('about-us') || document.body.classList.contains('sobre-nosotros')) {
+	} else if (document.body.classList.contains('login') || document.body.classList.contains('ingresar')) {
+		(0, _multilanguages2.default)('signUp.html', 'registro.html');
+	} else if (document.body.classList.contains('login') || document.body.classList.contains('iniciar-sesion')) {
 		(0, _multilanguages2.default)('about-us.html', 'sobre-nosotros.html');
 	}
 })();

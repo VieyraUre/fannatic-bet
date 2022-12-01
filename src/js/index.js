@@ -47,7 +47,9 @@ import {initAcc} from './components/accordion';
 		globalAccordion();
 	} else if (document.body.classList.contains('singup') || document.body.classList.contains('registro')) {
 		multilanguages('signUp.html' , 'registro.html');
-	} else if (document.body.classList.contains('about-us') || document.body.classList.contains('sobre-nosotros')) {
+	} else if (document.body.classList.contains('login') || document.body.classList.contains('ingresar')) {
+		multilanguages('signUp.html' , 'registro.html');
+	} else if (document.body.classList.contains('login') || document.body.classList.contains('iniciar-sesion')) {
 		multilanguages('about-us.html' , 'sobre-nosotros.html');
 	}
 })();

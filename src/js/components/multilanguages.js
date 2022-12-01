@@ -10,6 +10,7 @@ const multilanguages = (root, idiom2) => {
 			for(let i = 0; i < data.lenguajes.length ; i++) {
 				if (data.lenguajes[i].text != 'en') {
 					if( data.lenguajes[i].text === idiom) {
+						// window.location.pathname = `${data.lenguajes[i].text}/${idiom2}`
 						window.location.pathname = `fannatic-bet/${data.lenguajes[i].text}/${idiom2}`
 					}
 				} else {
