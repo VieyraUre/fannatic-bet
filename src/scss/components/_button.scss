@@ -10,6 +10,7 @@
 	
 	&__singup {
 		background-color: var(--color-third);
+		border: 2px solid var(--color-third);
 		font-weight: 500;
 		
 		@include from(l) {

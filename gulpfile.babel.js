@@ -221,10 +221,10 @@ gulp.task('json-dev', () => {
 		.pipe(gulp.dest('./public/'))
 });
 
-// gulp.task('jsonEs-dev', () => {
-// 	gulp.src('./src/data/data-es.json')
-// 		.pipe(gulp.dest('./public/'))
-// });
+gulp.task('jsonEs-dev', () => {
+	gulp.src('./src/data/data-es.json')
+		.pipe(gulp.dest('./public/'))
+});
 
 gulp.task('sw', () => {
 	gulp.src('./src/sw.js')
@@ -241,7 +241,7 @@ gulp.task('sitemap', () => {
 		.pipe(gulp.dest('./public'))
 });
 
-gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'manifest', 'sw', 'json-dev', 'es-dev'], () => {
+gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'manifest', 'sw', 'json-dev', 'es-dev', 'jsonEs-dev'], () => {
 	server.init({
 		server: {
 			baseDir: './public'
@@ -255,7 +255,7 @@ gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-d
 	watch('./src/pug/es/**/**', () => gulp.start('es-dev'))
 	watch('./src/manifest.json', () => gulp.start('manifest'))
 	watch('./src/data/example.json', () => gulp.start('json-dev'))
-	// watch('./src/data/data-es.json', () => gulp.start('jsonEs-dev'))
+	watch('./src/data/data-es.json', () => gulp.start('jsonEs-dev'))
 	watch('./src/sw.js', () => gulp.start('sw'))
 });
 
