@@ -222,37 +222,37 @@
 		{
 			"img": "assets/img/sports.png",
 			"text": "sports",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/casino.png",
 			"text": "casino",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/live_c.png",
 			"text": "live casino",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/racebook.png",
 			"text": "racebook",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/wagerin.png",
 			"text": "live wagerin",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "join now"
 		},
 		{
 			"img": "assets/img/props.png",
 			"text": "props buider",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "join now"
 		}
 	],
@@ -343,7 +343,7 @@
 		},
 		{
 			"item": "sign me up",
-			"link": "signUp.html"
+			"link": "sign-up.html"
 		},
 		{
 			"item": "About us",
@@ -804,21 +804,21 @@
 		{
 			"img": "assets/img/1-banking_all.png",
 			"alt": "bitcoin, bitcoin cash, litecoin, dash, ethereum",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "Deposit Now"
 		},
 
 		{
 			"img": "assets/img/2-banking_p2p.png",
 			"alt": "p2p",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "Deposit Now"
 		},
 
 		{
 			"img": "assets/img/3-banking_visa_p2p.png",
 			"alt": "visa",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "Deposit Now"
 		}
 	],
@@ -826,14 +826,14 @@
 		{
 			"img": "assets/img/1-banking_all.png",
 			"alt": "bitcoin, bitcoin cash, litecoin, dash, ethereum",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "Withdraw Now"
 		},
 
 		{
 			"img": "assets/img/2-banking_p2p.png",
 			"alt": "p2p",
-			"link": "signUp.html",
+			"link": "sign-up.html",
 			"textLink": "Withdraw Now"
 		}
 	],
