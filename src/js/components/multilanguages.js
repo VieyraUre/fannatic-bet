@@ -14,7 +14,7 @@ const multilanguages = (root, idiom2) => {
 						window.location.pathname = `fannatic-bet/${data.lenguajes[i].text}/${idiom2}`
 					}
 				} else {
-					window.location.pathname = root;
+					window.location.pathname = `fannatic-bet/${root}`;
 				}
 			}
 		})
