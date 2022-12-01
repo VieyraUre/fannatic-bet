@@ -45,10 +45,13 @@ import {initAcc} from './components/accordion';
 		multilanguages('rules.html' , 'reglas.html');
 		tnsCarousell();
 		globalAccordion();
+
 	} else if (document.body.classList.contains('singup') || document.body.classList.contains('registro')) {
-		multilanguages('signUp.html' , 'registro.html');
+		multilanguages('sign-up.html' , 'registro.html');
+
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('ingresar')) {
-		multilanguages('signUp.html' , 'registro.html');
+		multilanguages('login.html' , 'ingresar.html');
+
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('iniciar-sesion')) {
 		multilanguages('about-us.html' , 'sobre-nosotros.html');
 	}
