@@ -3,7 +3,7 @@
     border-radius: 5px;
 	color: var(--color-body);
 	font-weight: bold;
-    padding: 4px 11px;
+    padding: 4px 8px;
 	text-transform: capitalize;
 	font-size: var(--small-font-size);
 	cursor: pointer;
@@ -59,7 +59,7 @@
 			position: relative;
 			font-size: 48px;
 			width: 512px;
-			padding: 9px 50px;
+			padding: 9px 16px;
 			&:hover {
 				background-color: var(--color-second);
 				color: var(--color-background);
@@ -68,7 +68,7 @@
 	}
 	
 	&__secondary {
-		padding: 8px 48px;
+		padding: 8px 16px;
 		background-color: transparent;
 		border: 1px solid var(--color-background);
 		border-radius: 1px;
@@ -78,7 +78,7 @@
 		
 		@include from(l) {
 			font-size: 14px;
-			padding: 8px 48px;
+			padding: 8px 16px;
 			
 			&:hover {
 				background-color: var(--color-first);
@@ -95,7 +95,7 @@
 		font-size: 14px;
 		font-weight: 500;
 		color: var(--color-background);
-		width: 220px;
+		width: 250px;
 		text-align: center;
 
 		@include from(l) {

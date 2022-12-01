@@ -94,3 +94,25 @@
 		display: block;
 	}
 }
+
+.dropdown-bottom {
+	width: 80px;
+
+	@include from(l) {
+		width: 0;
+	}
+	&__btn {
+		background-color: transparent;
+		padding: 0;
+		&:hover {
+			background-color: transparent;
+			color: var(--color-body);
+		}
+		&:focus {
+			background-color: unset !important;
+			background-color: transparent;
+		}
+	}
+
+
+}
