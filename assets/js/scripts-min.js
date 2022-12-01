@@ -2163,9 +2163,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		(0, _paymentSlider.tnsCarousell)();
 		(0, _tnsAccordion2.default)();
 	} else if (document.body.classList.contains('singup') || document.body.classList.contains('registro')) {
-		(0, _multilanguages2.default)('signUp.html', 'registro.html');
+		(0, _multilanguages2.default)('sign-up.html', 'registro.html');
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('ingresar')) {
-		(0, _multilanguages2.default)('signUp.html', 'registro.html');
+		(0, _multilanguages2.default)('login.html', 'ingresar.html');
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('iniciar-sesion')) {
 		(0, _multilanguages2.default)('about-us.html', 'sobre-nosotros.html');
 	}
