@@ -1784,7 +1784,7 @@ var multilanguages = function multilanguages(root, idiom2) {
 			for (var _i = 0; _i < _dataEs2.default.lenguajes.length; _i++) {
 				if (_dataEs2.default.lenguajes[_i].text != 'en') {
 					if (_dataEs2.default.lenguajes[_i].text === idiom) {
-						window.location.pathname = _dataEs2.default.lenguajes[_i].text + '/' + idiom2;
+						window.location.pathname = 'fannatic-bet/' + _dataEs2.default.lenguajes[_i].text + '/' + idiom2;
 					}
 				} else {
 					window.location.pathname = root;
