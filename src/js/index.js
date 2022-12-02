@@ -50,7 +50,7 @@ import {initAcc} from './components/accordion';
 		multilanguages('sign-up.html' , 'registro.html');
 
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('ingresar')) {
-		multilanguages('login.html' , 'ingresar.html');
+		multilanguages('login.html' , 'iniciar-sesion.html');
 
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('iniciar-sesion')) {
 		multilanguages('about-us.html' , 'sobre-nosotros.html');
