@@ -2165,7 +2165,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	} else if (document.body.classList.contains('singup') || document.body.classList.contains('registro')) {
 		(0, _multilanguages2.default)('sign-up.html', 'registro.html');
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('ingresar')) {
-		(0, _multilanguages2.default)('login.html', 'ingresar.html');
+		(0, _multilanguages2.default)('login.html', 'iniciar-sesion.html');
 	} else if (document.body.classList.contains('login') || document.body.classList.contains('iniciar-sesion')) {
 		(0, _multilanguages2.default)('about-us.html', 'sobre-nosotros.html');
 	}
